@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<БазаДанных>
+	<ReopenBase>
+		<Файл Имя="ACCESSZONE" Описание="Зоны доступа">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrAccessZone" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Доступ" />		
+			</Pages>
+		</Файл>		
+		<Файл Имя="ACESSPOINT" Описание="Точки доступа">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrDoor" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Доступ" />		
+			</Pages>		
+		</Файл>
+		<Файл Имя="ADC" />
+		<Файл Имя="ALARMS" />	
+		<Файл Имя="COMPORTS" Описание="Сом-порты">	
+			<Queryes Имя="Запросы">
+				<Query Имя="qrComPorts" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+				<Page Имя="Доступ" />
+			</Pages>		
+		</Файл>		
+		<Файл Имя="COMPS" Описание="Компьютеры">	
+			<Queryes Имя="Запросы">
+				<Query Имя="qrComputers" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+				<Page Имя="Доступ" />
+			</Pages>		
+		</Файл>		
+		<Файл Имя="COMPTRNS" Описание="Трансляция информации по компьютерам">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrCompTranslation" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+				<Page Имя="Доступ" />			
+			</Pages>		
+		</Файл>			
+		<Файл Имя="DEVELMS" Описание="Список разделов для трансляции">	
+			<Queryes Имя="Запросы">
+				<Query Имя="qrDevElms" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+				<Page Имя="Доступ" />			
+			</Pages>		
+		</Файл>	
+		<Файл Имя="RSLINES" Описание="Приборы">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrRSLine" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+				<Page Имя="Доступ" />			
+			</Pages>		
+		</Файл>			
+		<Файл Имя="DEVITEMS" Описание="Компоненты прибора">	
+			<Queryes Имя="Запросы">
+				<Query Имя="qrDeviceItem" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+				<Page Имя="Доступ" />			
+			</Pages>		
+		</Файл>		
+		<Файл Имя="DTYPES"  /> 
+		<Файл Имя="DTYPESELEMENT" />
+		<Файл Имя="EVENTGROUP" Описание="Группа событий">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrEventGroup" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+				<Page Имя="Доступ" />			
+			</Pages>		
+		</Файл>		
+		<Файл Имя="EVENTGROUPCONT" Описание="Состав группы событий">	
+			<Queryes Имя="Запросы">
+				<Query Имя="qrEventGroupCont" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+				<Page Имя="Доступ" />			
+			</Pages>		
+		</Файл>		
+		<Файл Имя="EVENTS" Описание="События" />		
+		<Файл Имя="EVREPLY" Описание="Сценарии, запускаемых по событиям">	
+			<Queryes Имя="Запросы">
+				<Query Имя="qrEventReply" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+				<Page Имя="Доступ" />			
+			</Pages>		
+		</Файл>		
+		<Файл Имя="GROUPS" Описание="Уровни доступа">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrGroup" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Уровни доступа" />		
+				<Page Имя="Сотрудники" />
+				<Page Имя="Пароли" />			
+			</Pages>		
+		</Файл>		
+		<Файл Имя="GRACCESS" Описание="Состав уровня доступа">	
+			<Queryes Имя="Запросы">
+				<Query Имя="qrGroupAccess" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Уровни доступа" />
+				<Page Имя="Сотрудники" />
+				<Page Имя="Пароли" />
+			</Pages>		
+		</Файл>		
+		<Файл Имя="GROUPOBJ" Описание="Группы разделов">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrGroupsObjs" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />		
+				<Page Имя="Уровни доступа" />
+			</Pages>		
+		</Файл>		
+		<Файл Имя="GROBJCONT" Описание="Cостав группы разделов">	
+			<Queryes Имя="Запросы">
+				<Query Имя="qrGroupsObjsCont" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Структура системы" />		
+			</Pages>		
+		</Файл>	
+		<Файл Имя="POBJECTS" Описание="Разделы">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrObject" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />		
+				<Page Имя="Уровни доступа" />
+			</Pages>
+		</Файл>		
+		<Файл Имя="POBJCONT" Описание="Состав разделов">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrObjCont" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />		
+			</Pages>
+		</Файл>				
+		<Файл Имя="GTIME" Описание="Окна времени">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrTime" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Окна времени" />		
+			</Pages>
+		</Файл>
+		<Файл Имя="TIMECONT" Описание="Интервалы времени">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrTimeCont" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Окна времени" />		
+			</Pages>		
+		</Файл>
+		<Файл Имя="GUEST" Описание="Посетители" />
+		<Файл Имя="HOLIDAYS" Описание="Праздники" />
+		<Файл Имя="KEYOBJS" Описание="Связь реле и разделов">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrKeyObjects" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />		
+			</Pages>
+		</Файл>		
+		<Файл Имя="LINESBROADCAST" Описание="Группы событий для трансляции">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrLinesBroadcast" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />		
+			</Pages>
+		</Файл>			
+		<Файл Имя="MAP_ACS" Описание="Зоны доступа на планах">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrMap_AccessZones" />
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />		
+			</Pages>
+		</Файл>		
+		<Файл Имя="MAP_ELM" Описание="Элементы на планах">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrMapElm" />
+				<Query Имя="qrMapElms" />
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />		
+			</Pages>
+		</Файл>		
+		<Файл Имя="MAP_LBLS" Описание="Ссылки">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrLinks" />
+				<Query Имя="qrMapLinks" />
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />		
+			</Pages>
+		</Файл>		
+		<Файл Имя="MAP_OBJ" Описание="Разделы на планах">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrMapObj" />
+				<Query Имя="qrMapRazd" />
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />		
+			</Pages>
+		</Файл>		
+		<Файл Имя="MAP_SHL" Описание="ШС на планах">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrMapShl" />
+				<Query Имя="qrMapShleifs" />
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />		
+			</Pages>
+		</Файл>		
+		<Файл Имя="M_ALARM" />
+		<Файл Имя="PCOMPANY" Описание="Компании">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrCompany" />			
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Сотрудники" />			
+			</Pages>
+		</Файл>		
+		<Файл Имя="PDIVISION" Описание="Подразделения">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrDivision" />			
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Сотрудники" />			
+			</Pages>
+		</Файл>		
+		<Файл Имя="PHOTOS" />
+		<Файл Имя="PLIST" Описание="Сотрудники">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrPerson" />			
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Сотрудники" />			
+			</Pages>
+		</Файл>		
+		<Файл Имя="PLOGDATA" />
+		<Файл Имя="PMAPS" Описание="Планы помещений">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrMapPictures" />
+				<Query Имя="qrMapRazd" />
+				<Query Имя="qrMapShleifs" />
+				<Query Имя="qrMapElms" />
+				<Query Имя="qrMap_AccessZones" />
+				<Query Имя="qrMapLinks" />
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Адреса приборов" />
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+			</Pages>
+		</Файл>		
+		<Файл Имя="PMARK" Описание="Пароли">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrParoles" />			
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Пароли" />			
+			</Pages>
+		</Файл>		
+		<Файл Имя="PPOST" Описание="Должности">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrPost" />			
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Сотрудники" />			
+			</Pages>
+		</Файл>		
+		<Файл Имя="PSOURCEGREV" />	
+		<Файл Имя="RDRACCESSPOINT" Описание="Связь считывателей с точками доступа и разделами">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrRdrAccessPoints" />			
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Адреса приборов" />
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+				<Page Имя="Доступ" />
+			</Pages>
+		</Файл>
+		<Файл Имя="REASON" />
+		<Файл Имя="RPTSQL" />	
+		<Файл Имя="SCHEDULE" />
+		<Файл Имя="SCRIPT" Описание="Сценарии">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrScript" />			
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Сценарии" />
+			</Pages>
+		</Файл>	
+		<Файл Имя="SRVGET" />
+		<Файл Имя="SYS" />
+		<Файл Имя="SYSPARAM" Описание="Параметры компьютера">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrParam" />			
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Адреса приборов" />
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+			</Pages>
+		</Файл>	
+		<Файл Имя="TIMETABLE" />
+		<Файл Имя="NODEREPL" Описание="Сценарии на дереве управления">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrNodeReply" />			
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Дерево управления" />			
+			</Pages>
+		</Файл>	
+		<Файл Имя="TREECTRL" Описание="Структура дерева управления">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrTree" />			
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Дерево управления" />			
+			</Pages>
+		</Файл>		
+		<Файл Имя="TREENODE" Описание="Свойства узлов дерева управления">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrTreeNode" />			
+			</Queryes>
+			<Pages Имя="Вкладки">				
+				<Page Имя="Дерево управления" />			
+			</Pages>
+		</Файл>		
+		<Файл Имя="VINSP" Описание="Видеоподсистемы">
+			<Queryes Имя="Запросы">
+				<Query Имя="qrVideoInspectors" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+			</Pages>		
+		</Файл>	
+		<Файл Имя="CAMERAS" Описание="Камеры">	
+			<Queryes Имя="Запросы">
+				<Query Имя="qrCameras" />
+			</Queryes>
+			<Pages Имя="Вкладки">
+				<Page Имя="Адреса приборов" />		
+				<Page Имя="Планы" />
+				<Page Имя="Структура системы" />
+			</Pages>		
+		</Файл>		
+	</ReopenBase>
+	
+	<AddingDevices>
+		<Device	DeviceType="0" DeviceVersion="0">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+		</Device>		
+		<Device	DeviceType="1" DeviceVersion="0">
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="20" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 1 )"/>
+		</Device>		
+		<Device	DeviceType="2" DeviceVersion="0">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="20" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 1 )"/>
+			<SQL Element="Relay" NumberFirst="1" RecordCount="5" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>	
+		</Device>		
+		<Device	DeviceType="3" DeviceVersion="0">
+			<SQL Element="Relay" NumberFirst="1" RecordCount="4" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>	
+		</Device>
+		<Device	DeviceType="4" DeviceVersion="0">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="4" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 1 )"/>
+			<SQL Element="Relay" NumberFirst="1" RecordCount="2" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>	
+		</Device>		
+		<Device	DeviceType="7" DeviceVersion="0">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+		</Device>		
+		<Device	DeviceType="9" DeviceVersion="0">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="127" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 1 )"/>
+		</Device>	
+		<Device	DeviceType="10" DeviceVersion="200">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+		</Device>
+	
+		<Device	DeviceType="11" DeviceVersion="0">
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="20" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 1 )"/>
+			<SQL Element="Relay" NumberFirst="1" RecordCount="5" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>	
+		</Device>		
+		<Device	DeviceType="13" DeviceVersion="0">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+		</Device>
+		<Device	DeviceType="14" DeviceVersion="0">
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="2" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 2 )"/>
+			<SQL Element="Shleif" NumberFirst="3" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 9 )"/>
+			<SQL Element="Shleif" NumberFirst="4" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 10 )"/>
+			<SQL Element="Shleif" NumberFirst="5" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 11 )"/>
+			<SQL Element="Shleif" NumberFirst="6" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 12 )"/>
+		</Device>
+        <Device	DeviceType="14" DeviceVersion="200">
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="3" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 2 )"/>
+			<SQL Element="Shleif" NumberFirst="4" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 9 )"/>
+			<SQL Element="Shleif" NumberFirst="5" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 10 )"/>
+			<SQL Element="Shleif" NumberFirst="6" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 15 )"/>
+			<SQL Element="Shleif" NumberFirst="7" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 16 )"/>
+            <SQL Element="Shleif" NumberFirst="8" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 17 )"/>
+            <SQL Element="Shleif" NumberFirst="9" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 12 )"/>
+            <SQL Element="Shleif" NumberFirst="10" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 19 )"/>
+            <SQL Element="Shleif" NumberFirst="11" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 11 )"/>
+		    
+            <SQL Element="Relay" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  2 )"/>	
+            <SQL Element="Relay" NumberFirst="2" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  3 )"/>	
+            <SQL Element="Relay" NumberFirst="3" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  4 )"/>	
+            <SQL Element="Relay" NumberFirst="4" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  5 )"/>	
+            <SQL Element="Relay" NumberFirst="5" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  6 )"/>	
+        </Device>
+		<Device	DeviceType="14" DeviceVersion="300">
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="3" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 2 )"/>
+			<SQL Element="Shleif" NumberFirst="4" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 9 )"/>
+			<SQL Element="Shleif" NumberFirst="5" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 10 )"/>
+			<SQL Element="Shleif" NumberFirst="6" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 15 )"/>
+			<SQL Element="Shleif" NumberFirst="7" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 16 )"/>
+            <SQL Element="Shleif" NumberFirst="8" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 17 )"/>
+            <SQL Element="Shleif" NumberFirst="9" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 12 )"/>
+            <SQL Element="Shleif" NumberFirst="10" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 19 )"/>
+            <SQL Element="Shleif" NumberFirst="11" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 11 )"/>
+            <SQL Element="Shleif" NumberFirst="12" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 70 )"/>
+		    
+            <SQL Element="Relay" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  2 )"/>	
+            <SQL Element="Relay" NumberFirst="2" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  3 )"/>	
+            <SQL Element="Relay" NumberFirst="3" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  4 )"/>	
+            <SQL Element="Relay" NumberFirst="4" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  5 )"/>	
+            <SQL Element="Relay" NumberFirst="5" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  6 )"/>	
+            <SQL Element="Relay" NumberFirst="6" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>				
+        </Device>
+		
+		<Device	DeviceType="15" DeviceVersion="0">
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 13 )"/>
+			<SQL Element="Shleif" NumberFirst="2" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 14 )"/>
+			<SQL Element="Relay" NumberFirst="1" RecordCount="6" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  1 )"/>	
+		</Device>		
+		<Device	DeviceType="16" DeviceVersion="0">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="2" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="2" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 1 )"/>
+			<SQL Element="Relay" NumberFirst="1" RecordCount="2" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>	
+		</Device>
+
+        <Device	DeviceType="20" DeviceVersion="0">
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="4" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 1 )"/>
+			<SQL Element="Relay" NumberFirst="1" RecordCount="2" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>	
+		</Device>
+		<Device	DeviceType="22" DeviceVersion="0">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+		</Device>
+		<Device	DeviceType="24" DeviceVersion="0">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="4" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 1 )"/>
+		</Device>	        
+		<Device	DeviceType="25" DeviceVersion="0">
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 20 )"/>
+            <SQL Element="Shleif" NumberFirst="11" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 21 )"/>
+            <SQL Element="Shleif" NumberFirst="21" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 22 )"/>
+			
+            <SQL Element="Shleif" NumberFirst="2" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 23 )"/>
+            <SQL Element="Shleif" NumberFirst="12" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 24 )"/>
+            <SQL Element="Shleif" NumberFirst="22" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 25 )"/>
+			
+            <SQL Element="Shleif" NumberFirst="3" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 26 )"/>
+            <SQL Element="Shleif" NumberFirst="13" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 27 )"/>
+            <SQL Element="Shleif" NumberFirst="23" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 28 )"/>
+			
+            <SQL Element="Shleif" NumberFirst="4" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 29 )"/>
+            <SQL Element="Shleif" NumberFirst="14" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 30 )"/>
+            <SQL Element="Shleif" NumberFirst="24" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 31 )"/>
+			
+            <SQL Element="Shleif" NumberFirst="7" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 32 )"/>
+            <SQL Element="Shleif" NumberFirst="17" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 33 )"/>
+            <SQL Element="Shleif" NumberFirst="27" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 34 )"/>
+			
+            <SQL Element="Shleif" NumberFirst="8" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 35 )"/>
+            <SQL Element="Shleif" NumberFirst="18" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 36 )"/>
+            <SQL Element="Shleif" NumberFirst="28" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 37 )"/>
+			
+            
+            <SQL Element="Shleif" NumberFirst="9" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 38 )"/>
+            <SQL Element="Shleif" NumberFirst="19" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 39 )"/>
+            <SQL Element="Shleif" NumberFirst="29" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 40 )"/>
+            
+            <SQL Element="Shleif" NumberFirst="30" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 41 )"/>
+            <SQL Element="Shleif" NumberFirst="31" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 42 )"/>
+            <SQL Element="Shleif" NumberFirst="32" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 43 )"/>
+            <SQL Element="Shleif" NumberFirst="33" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 12 )"/>
+            <SQL Element="Shleif" NumberFirst="34" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 45 )"/>
+            <SQL Element="Shleif" NumberFirst="37" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 16 )"/>
+            <SQL Element="Shleif" NumberFirst="38" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 17 )"/>
+            <SQL Element="Shleif" NumberFirst="39" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 48 )"/>
+			
+            <SQL Element="Shleif" NumberFirst="41" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 49 )"/>
+            <SQL Element="Shleif" NumberFirst="42" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 50 )"/>
+            <SQL Element="Shleif" NumberFirst="43" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 51 )"/>
+            <SQL Element="Shleif" NumberFirst="44" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 52 )"/>
+            <SQL Element="Shleif" NumberFirst="45" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 53 )"/>
+            <SQL Element="Shleif" NumberFirst="46" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 54 )"/>
+            <SQL Element="Shleif" NumberFirst="47" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 55 )"/>
+            <SQL Element="Shleif" NumberFirst="48" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 56 )"/>
+            <SQL Element="Shleif" NumberFirst="49" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 57 )"/>
+            <SQL Element="Shleif" NumberFirst="50" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 58 )"/>
+            <SQL Element="Shleif" NumberFirst="51" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 59 )"/>
+            <SQL Element="Shleif" NumberFirst="52" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 60 )"/>
+            <SQL Element="Shleif" NumberFirst="53" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 60 )"/>
+            <SQL Element="Shleif" NumberFirst="54" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 62 )"/>
+            <SQL Element="Shleif" NumberFirst="55" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 63 )"/>
+            <SQL Element="Shleif" NumberFirst="56" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 64 )"/>
+            <SQL Element="Shleif" NumberFirst="57" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 65 )"/>
+            <SQL Element="Shleif" NumberFirst="58" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 66 )"/>
+            
+			
+            <SQL Element="Relay" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  7 )"/>	
+            <SQL Element="Relay" NumberFirst="2" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  8 )"/>	
+            <SQL Element="Relay" NumberFirst="3" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  9 )"/>	
+            <SQL Element="Relay" NumberFirst="4" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  10 )"/>	
+		</Device>
+          <Device	DeviceType="25" DeviceVersion="103">
+           <SQL Element="Shleif" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 49 )"/>
+           <SQL Element="Shleif" NumberFirst="2" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 50 )"/>
+           <SQL Element="Shleif" NumberFirst="3" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 51 )"/>
+           <SQL Element="Shleif" NumberFirst="4" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 52 )"/>
+           <SQL Element="Shleif" NumberFirst="5" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 53 )"/>
+           <SQL Element="Shleif" NumberFirst="6" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 54 )"/>
+           <SQL Element="Shleif" NumberFirst="7" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 55 )"/>
+           <SQL Element="Shleif" NumberFirst="8" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 56 )"/>
+           <SQL Element="Shleif" NumberFirst="9" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 57 )"/>
+           <SQL Element="Shleif" NumberFirst="10" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 58 )"/>
+           <SQL Element="Shleif" NumberFirst="11" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 59 )"/>
+           <SQL Element="Shleif" NumberFirst="12" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 60 )"/>
+           <SQL Element="Shleif" NumberFirst="13" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 61 )"/>
+           <SQL Element="Shleif" NumberFirst="14" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 62 )"/>
+           <SQL Element="Shleif" NumberFirst="15" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 63 )"/>
+           <SQL Element="Shleif" NumberFirst="16" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 64 )"/>
+           <SQL Element="Shleif" NumberFirst="17" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 65 )"/>
+           <SQL Element="Shleif" NumberFirst="18" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 66 )"/>
+           <SQL Element="Shleif" NumberFirst="19" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 87 )"/>
+           <SQL Element="Shleif" NumberFirst="20" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 88 )"/>
+           <SQL Element="Shleif" NumberFirst="21" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 89 )"/>
+           <SQL Element="Shleif" NumberFirst="22" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 90 )"/>
+          <SQL Element="Shleif" NumberFirst="23" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 16 )"/>
+           <SQL Element="Shleif" NumberFirst="24" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 17 )"/>
+           <SQL Element="Shleif" NumberFirst="25" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 81 )"/>
+           <SQL Element="Shleif" NumberFirst="26" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 12 )"/>			
+            <SQL Element="Shleif" NumberFirst="27" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 19 )"/>
+            <SQL Element="Shleif" NumberFirst="28" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 82 )"/>
+            <SQL Element="Shleif" NumberFirst="29" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 83 )"/>			
+            <SQL Element="Shleif" NumberFirst="30" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 84 )"/>
+            <SQL Element="Shleif" NumberFirst="31" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 85 )"/>
+            <SQL Element="Shleif" NumberFirst="32" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 86 )"/>
+            <SQL Element="Shleif" NumberFirst="33" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 15 )"/>
+
+            <SQL Element="Shleif" NumberFirst="40" RecordCount="100" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',4  )"/>
+
+            <SQL Element="Relay" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  7 )"/>	
+            <SQL Element="Relay" NumberFirst="2" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  8 )"/>	
+            <SQL Element="Relay" NumberFirst="3" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  9 )"/>	
+            <SQL Element="Relay" NumberFirst="4" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  10 )"/>	
+			<SQL Element="Relay" NumberFirst="32" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>	
+		</Device>
+		<Device	DeviceType="26" DeviceVersion="0">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="20" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 1 )"/>
+			<SQL Element="Relay" NumberFirst="1" RecordCount="3" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>	
+            <SQL Element="Relay" NumberFirst="4" RecordCount="2" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  1 )"/>	
+		</Device>
+		<Device	DeviceType="28" DeviceVersion="0">
+		</Device>
+		
+		<Device	DeviceType="2" DeviceVersion="204">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="20" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 1 )"/>
+			<SQL Element="Relay" NumberFirst="1" RecordCount="3" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>	
+			<SQL Element="Relay" NumberFirst="4" RecordCount="2" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  1 )"/>	
+		</Device>	
+        
+		<Device	DeviceType="33" DeviceVersion="0">  
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 71 )"/>
+			<SQL Element="Shleif" NumberFirst="2" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 72 )"/>
+			<SQL Element="Shleif" NumberFirst="3" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 73 )"/>	
+			<SQL Element="Shleif" NumberFirst="4" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 74 )"/>	
+            <SQL Element="Shleif" NumberFirst="5" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 75 )"/>	
+		</Device>	
+		
+		<Device	DeviceType="31" DeviceVersion="0">  
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="127" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 1 )"/>
+			<SQL Element="Shleif" NumberFirst="130" RecordCount="7" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 77 )"/>		
+		</Device>
+        
+		<Device	DeviceType="34" DeviceVersion="0">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="10" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 1 )"/>
+			<SQL Element="Shleif" NumberFirst="20" RecordCount="100" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 79 )"/>
+			<SQL Element="Relay" NumberFirst="1" RecordCount="2" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>	
+			<SQL Element="Relay" NumberFirst="3" RecordCount="2" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  1 )"/>	
+		</Device>
+
+		<Device	DeviceType="30" DeviceVersion="0">
+			<SQL Element="Relay" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  13 )"/>	
+		</Device>
+
+		<Device	DeviceType="256" DeviceVersion="0">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+			<SQL Element="Relay" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>	
+		</Device>		
+
+		<Device	DeviceType="257" DeviceVersion="0">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+			<SQL Element="Relay" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>	
+		</Device>
+		<Device	DeviceType="4" DeviceVersion="300">
+			<SQL Element="Reader" NumberFirst="1" RecordCount="1" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 0 )"/>
+			<SQL Element="Shleif" NumberFirst="1" RecordCount="4" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s', 1 )"/>
+			<SQL Element="Relay" NumberFirst="1" RecordCount="2" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  0 )"/>	
+			<SQL Element="Relay" NumberFirst="3" RecordCount="2" Text="INSERT INTO DevItems ( ID, ComputerID, GIndex, ItemType, Address, DeviceID, Name, GType ) VALUES ( '%d', '%d', '%d', '%d', '%d', '%d', '%s',  1 )"/>	
+		</Device>				
+
+	</AddingDevices>
+</БазаДанных>

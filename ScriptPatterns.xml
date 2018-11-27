@@ -1,0 +1,1077 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ScriptPatters>
+	<ScriptGroups>
+		<ScriptGroup Name="Прибор" />
+		<ScriptGroup Name="Считыватель" />
+		<ScriptGroup Name="Шлейф" />
+		<ScriptGroup Name="Камера" />
+		<ScriptGroup Name="Выходы" />
+		<ScriptGroup Name="Группа разделов" />
+		<ScriptGroup Name="Разделы" />
+		<ScriptGroup Name="Ядро" />
+        <ScriptGroup Name="Сценарии" />
+	</ScriptGroups>
+	<Script ID="0" Name="Пустой шаг" />
+	<Script ID="1" Name="Возврат в исходное состояние" ScriptGroup="Выходы">
+		<Vars>
+			<Var1 Text="Выходы" />
+			<Var2 Text="Реле" />
+		</Vars>
+		<Params>
+			<Param1 Name="Реле" Type="Relay" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Выходы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ВозвратВИсходноеСостояние();" />
+			<Line Text="      иначе Сообщить( &quot;Реле не найдено&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="2" Name="Включить" ScriptGroup="Выходы">
+		<Vars>
+			<Var1 Text="Выходы" />
+			<Var2 Text="Реле" />
+		</Vars>
+		<Params>
+			<Param1 Name="Реле" Type="Relay" ValueType="integer" Default="0" />
+			<Param2 Name="Задержка управления" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Выходы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.Включить( &quot;:Param2&quot; );" />
+			<Line Text="      иначе Сообщить( &quot;Реле не найдено&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="3" Name="Выключить" ScriptGroup="Выходы">
+		<Vars>
+			<Var1 Text="Выходы" />
+			<Var2 Text="Реле" />
+		</Vars>
+		<Params>
+			<Param1 Name="Реле" Type="Relay" ValueType="integer" Default="0" />
+			<Param2 Name="Задержка управления" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Выходы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.Выключить( &quot;:Param2&quot; );" />
+			<Line Text="      иначе Сообщить( &quot;Реле не найдено&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="4" Name="Включить на время" ScriptGroup="Выходы">
+		<Vars>
+			<Var1 Text="Выходы" />
+			<Var2 Text="Реле" />
+		</Vars>
+		<Params>
+			<Param1 Name="Реле" Type="Relay" ValueType="integer" Default="0" />
+			<Param2 Name="Задержка управления" ValueType="integer" Default="0" />
+			<Param3 Name="Время управления" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Выходы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ВключитьНаВремя( &quot;:Param2&quot;, &quot;:Param3&quot; );" />
+			<Line Text="      иначе Сообщить( &quot;Реле не найдено&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="5" Name="Выключить на время" ScriptGroup="Выходы">
+		<Vars>
+			<Var1 Text="Выходы" />
+			<Var2 Text="Реле" />
+		</Vars>
+		<Params>
+			<Param1 Name="Реле" Type="Relay" ValueType="integer" Default="0" />
+			<Param2 Name="Задержка управления" ValueType="integer" Default="0" />
+			<Param3 Name="Время управления" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Выходы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ВыключитьНаВремя( &quot;:Param2&quot;, &quot;:Param3&quot; );" />
+			<Line Text="      иначе Сообщить( &quot;Реле не найдено&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="6" Name="Мигать из состояния выключено" ScriptGroup="Выходы">
+		<Vars>
+			<Var1 Text="Выходы" />
+			<Var2 Text="Реле" />
+		</Vars>
+		<Params>
+			<Param1 Name="Реле" Type="Relay" ValueType="integer" Default="0" />
+			<Param2 Name="Задержка управления" ValueType="integer" Default="0" />
+            <Param3 Name="Номер маски мигания" ValueType="integer" Default="0" Special="1" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Выходы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.МигатьИзСостоянияВыключено( &quot;:Param2&quot;, &quot;0&quot;, &quot;:Param3&quot; );" />
+			<Line Text="      иначе Сообщить( &quot;Реле не найдено&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="7" Name="Мигать из состояния включено" ScriptGroup="Выходы">
+		<Vars>
+			<Var1 Text="Выходы" />
+			<Var2 Text="Реле" />
+		</Vars>
+		<Params>
+			<Param1 Name="Реле" Type="Relay" ValueType="integer" Default="0" />
+			<Param2 Name="Задержка управления" ValueType="integer" Default="0" />
+            <Param3 Name="Номер маски мигания" ValueType="integer" Default="0" Special="1" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Выходы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.МигатьИзСостоянияВключено( &quot;:Param2&quot;, &quot;0&quot;, &quot;:Param3&quot; );" />
+			<Line Text="      иначе Сообщить( &quot;Реле не найдено&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="8" Name="Мигать из состояния выключено на время" ScriptGroup="Выходы">
+		<Vars>
+			<Var1 Text="Выходы" />
+			<Var2 Text="Реле" />
+		</Vars>
+		<Params>
+			<Param1 Name="Реле" Type="Relay" ValueType="integer" Default="0" />
+			<Param2 Name="Задержка управления" ValueType="integer" Default="0" />
+			<Param3 Name="Время управления" ValueType="integer" Default="0" />
+			<Param4 Name="Номер маски мигания" ValueType="integer" Default="0" Special="1" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Выходы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.МигатьИзСостоянияВыключеноНаВремя( &quot;:Param2&quot;, &quot;:Param3&quot;, &quot;:Param4&quot; );" />
+			<Line Text="      иначе Сообщить( &quot;Реле не найдено&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="9" Name="Мигать из состояния включено на время" ScriptGroup="Выходы">
+		<Vars>
+			<Var1 Text="Выходы" />
+			<Var2 Text="Реле" />
+		</Vars>
+		<Params>
+			<Param1 Name="Реле" Type="Relay" ValueType="integer" Default="0" />
+			<Param2 Name="Задержка управления" ValueType="integer" Default="0" />
+			<Param3 Name="Время управления" ValueType="integer" Default="0" />
+			<Param4 Name="Номер маски мигания" ValueType="integer" Default="0" Special="1" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Выходы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.МигатьИзСостоянияВключеноНаВремя( &quot;:Param2&quot;, &quot;:Param3&quot;, &quot;:Param4&quot; );" />
+			<Line Text="      иначе Сообщить( &quot;Реле не найдено&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="10" Name="Взять раздел" ScriptGroup="Разделы">
+		<Vars>
+			<Var1 Text="Разделы" />
+			<Var2 Text="Раздел" />
+		</Vars>
+		<Params>
+			<Param1 Name="Раздел" Type="Object" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Разделы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.Взять();" />
+			<Line Text="      иначе Сообщить( &quot;раздел не найден&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="11" Name="Снять раздел" ScriptGroup="Разделы">
+		<Vars>
+			<Var1 Text="Разделы" />
+			<Var2 Text="Раздел" />
+		</Vars>
+		<Params>
+			<Param1 Name="Раздел" Type="Object" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Разделы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.Снять();" />
+			<Line Text="      иначе Сообщить( &quot;раздел не найден&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="12" Name="Выдать текстовое сообщение в ядро" ScriptGroup="Ядро">
+		<Params>
+			<Param1 Name="Текст" Type="" ValueType="string" Default="" />
+		</Params>
+		<ScriptText>
+			<Line Text="  Сообщить( &quot;:Param1&quot;, 1 );" />
+		</ScriptText>
+	</Script>
+	<Script ID="13" Name="Выдать текстовое сообщение" ScriptGroup="Прибор">
+		<Vars>
+			<Var1 Text="Приборы" />
+			<Var2 Text="ОдинПрибор" />
+		</Vars>
+		<Params>
+			<Param1 Name="Прибор" Type="Device" ValueType="integer" Default="0" />
+			<Param2 Name="Текст" Type="" ValueType="string" Default="" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Приборы&quot; );" />
+			<Line Text="  Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ВыдатьТекстовоеСообщение( &quot;:Param2&quot; );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="14" Name="Выдать звуковое сообщение" ScriptGroup="Прибор">
+		<Vars>
+			<Var1 Text="Приборы" />
+			<Var2 Text="ОдинПрибор" />
+		</Vars>
+		<Params>
+			<Param1 Name="Прибор" Type="Device" ValueType="integer" Default="0" />
+			<Param2 Name="Тип сообщения" Type="" ValueType="integer" Default="0">
+				<ParamValue Name="Выключение звука" Value="0" />
+				<ParamValue Name="Одиночный гудок" Value="1" />
+				<ParamValue Name="Двойной гудок" Value="2" />
+				<ParamValue Name="Тройной гудок" Value="3" />
+				<ParamValue Name="Длинный гудок" Value="4" />
+				<ParamValue Name="Прерывистый звуковой сигнал" Value="5" />
+			</Param2>
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Приборы&quot; );" />
+			<Line Text="  Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ВыдачаЗвуковогоСообщения( :Param2 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="15" Name="Сброс прибора" ScriptGroup="Прибор">
+		<Vars>
+			<Var1 Text="Приборы" />
+			<Var2 Text="ОдинПрибор" />
+		</Vars>
+		<Params>
+			<Param1 Name="Прибор" Type="Device" ValueType="integer" Default="0" />
+			<Param2 Name="Вид сброса" Type="" ValueType="integer" Default="1">
+				<ParamValue Name="Общий сброс" Value="1" />
+				<ParamValue Name="Сброс тревог" Value="2" />
+				<ParamValue Name="Сброс счетчика непереданных сообщений" Value="3" />
+			</Param2>
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Приборы&quot; );" />
+			<Line Text="  Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.СбросПрибора( :Param2 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="16" Name="Взять на охрану ШС" ScriptGroup="Шлейф">
+		<Vars>
+			<Var1 Text="Шлейфы" />
+			<Var2 Text="Шлейф" />
+		</Vars>
+		<Params>
+			<Param1 Name="Шлейф" Type="Shleif" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text=":Var1 = СоздатьОбъект( &quot;Шлейфы&quot; );" />
+			<Line Text="Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text=":Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text=":Var2.Взять();" />
+			<Line Text="КонецЕсли;" />
+			<Line Text="КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="17" Name="Снять с охраны ШС" ScriptGroup="Шлейф">
+		<Vars>
+			<Var1 Text="Шлейфы" />
+			<Var2 Text="Шлейф" />
+		</Vars>
+		<Params>
+			<Param1 Name="Шлейф" Type="Shleif" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text=":Var1 = СоздатьОбъект( &quot;Шлейфы&quot; );" />
+			<Line Text="Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text=":Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text=":Var2.Снять();" />
+			<Line Text="КонецЕсли;" />
+			<Line Text="КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="18" Name="Воспроизвести файл" ScriptGroup="Ядро">
+		<Vars>
+			<Var1 Text="Ядро" />
+		</Vars>
+		<Params>
+			<Param1 Name="Файл" ValueType="string" Default="" Special="1" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Ядро&quot; );" />
+			<Line Text="  Если Не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var1.ВоспроизвестиФайл( &quot;:Param1&quot; );" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="19" Name="Взять группу разделов" ScriptGroup="Группа разделов">
+		<Vars>
+			<Var1 Text="ГруппыРазделов" />
+			<Var2 Text="ГруппаРазделов" />
+		</Vars>
+		<Params>
+			<Param1 Name="Группа разделов" Type="ObjectGroup" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;ГруппыРазделов&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.Взять();" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />		
+		</ScriptText>
+	</Script>
+	<Script ID="20" Name="Снять группу разделов" ScriptGroup="Группа разделов">
+		<Vars>
+			<Var1 Text="ГруппыРазделов" />
+			<Var2 Text="ГруппаРазделов" />
+		</Vars>
+		<Params>
+			<Param1 Name="Группа разделов" Type="ObjectGroup" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;ГруппыРазделов&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.Снять();" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />	
+		</ScriptText>	
+	</Script>	
+	<Script ID="21" Name="Лампа" ScriptGroup="Выходы">
+		<Vars>
+			<Var1 Text="Выходы" />
+			<Var2 Text="Реле" />
+		</Vars>
+		<Params>
+			<Param1 Name="Реле" Type="Relay" ValueType="integer" Default="0" />			
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Выходы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.Лампа();" />
+			<Line Text="      иначе Сообщить( &quot;Реле не найдено&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>	
+	<Script ID="22" Name="ПЦН" ScriptGroup="Выходы">
+		<Vars>
+			<Var1 Text="Выходы" />
+			<Var2 Text="Реле" />
+		</Vars>
+		<Params>
+			<Param1 Name="Реле" Type="Relay" ValueType="integer" Default="0" />			
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Выходы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ПЦН();" />
+			<Line Text="      иначе Сообщить( &quot;Реле не найдено&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>		
+	<Script ID="23" Name="Запуск внешней программы" ScriptGroup="Ядро">
+		<Vars>
+			<Var1 Text="Ядро" />
+		</Vars>
+		<Params>
+			<Param1 Name="Программа" ValueType="string" Default="" Special="1" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Ядро&quot; );" />
+			<Line Text="  Если Не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var1.ЗапуститьПрограмму( &quot;:Param1&quot; );" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>	
+	<Script ID="24" Name="Управление режимом передачи" ScriptGroup="Прибор">
+		<Vars>
+			<Var1 Text="Приборы" />
+			<Var2 Text="ОдинПрибор" />
+		</Vars>
+		<Params>
+			<Param1 Name="Прибор" Type="Device" ValueType="integer" Default="0" />
+			<Param2 Name="Управление режимом передачи" Type="" ValueType="integer" Default="2">
+				<ParamValue Name="Пристановить передачу по заданным направлениям" Value="2" />
+				<ParamValue Name="Возобновить передачу по заданным направлениям" Value="3" />
+				<ParamValue Name="Очистить заданные направления" Value="4" />
+			</Param2>			
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Приборы&quot; );" />
+			<Line Text="  Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.УправлениеРежимомПередачи( :Param2 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>		
+	<Script ID="25" Name="Пуск АСПТ" ScriptGroup="Разделы">
+		<Vars>
+			<Var1 Text="Разделы" />
+			<Var2 Text="Раздел" />
+		</Vars>
+		<Params>
+			<Param1 Name="Раздел" Type="Object" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Разделы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ПускАСПТ();" />
+			<Line Text="      иначе Сообщить( &quot;раздел не найден&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>		
+	<Script ID="26" Name="Включение автоматики" ScriptGroup="Разделы">
+		<Vars>
+			<Var1 Text="Разделы" />
+			<Var2 Text="Раздел" />
+		</Vars>
+		<Params>
+			<Param1 Name="Раздел" Type="Object" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Разделы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ВклАвтоматики();" />
+			<Line Text="      иначе Сообщить( &quot;раздел не найден&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>	
+	<Script ID="27" Name="Выключение автоматики" ScriptGroup="Разделы">
+		<Vars>
+			<Var1 Text="Разделы" />
+			<Var2 Text="Раздел" />
+		</Vars>
+		<Params>
+			<Param1 Name="Раздел" Type="Object" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Разделы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ВыклАвтоматики();" />
+			<Line Text="      иначе Сообщить( &quot;раздел не найден&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>	
+	<Script ID="28" Name="Сброс тревоги" ScriptGroup="Разделы">
+		<Vars>
+			<Var1 Text="Разделы" />
+			<Var2 Text="Раздел" />
+		</Vars>
+		<Params>
+			<Param1 Name="Раздел" Type="Object" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Разделы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.СбросТревоги();" />
+			<Line Text="      иначе Сообщить( &quot;раздел не найден&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>	
+	<Script ID="29" Name="Выдать сообщение во всплывающем окне" ScriptGroup="Ядро">
+		<Vars>
+			<Var1 Text="Ядро" />
+		</Vars>    
+		<Params>
+			<Param1 Name="Текст" Type="" ValueType="string" Default="" />
+		</Params>
+		<ScriptText>
+            <Line Text="  :Var1 = СоздатьОбъект( &quot;Ядро&quot; );" />
+			<Line Text="  Если Не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="  :Var1.ПоказатьСообщение( &quot;:Param1&quot; );" />
+            <Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="30" Name="Пауза" ScriptGroup="Ядро">
+		<Vars>
+			<Var1 Text="Ядро" />
+		</Vars>    
+		<Params>
+			<Param1 Name="Пауза" Type="" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+            <Line Text="  :Var1 = СоздатьОбъект( &quot;Ядро&quot; );" />
+			<Line Text="  Если Не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="  :Var1.Пауза( :Param1 );" />
+            <Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>   
+	<Script ID="31" Name="Заблокировать доступ" ScriptGroup="Считыватель">
+		<Vars>
+			<Var1 Text="Считыватели" />
+			<Var2 Text="Считыватель" />
+		</Vars>
+		<Params>
+			<Param1 Name="Считыватель" Type="Reader" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Считыватели&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ЗаблокироватьДоступ();" />
+			<Line Text="      иначе Сообщить( &quot;Считыватель не найден&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>    
+	<Script ID="32" Name="Открытие доступа" ScriptGroup="Считыватель">
+		<Vars>
+			<Var1 Text="Считыватели" />
+			<Var2 Text="Считыватель" />
+		</Vars>
+		<Params>
+			<Param1 Name="Считыватель" Type="Reader" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Считыватели&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ОткрытиеДоступ();" />
+			<Line Text="      иначе Сообщить( &quot;Считыватель не найден&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>     
+	<Script ID="33" Name="Восстановить доступ" ScriptGroup="Считыватель">
+		<Vars>
+			<Var1 Text="Считыватели" />
+			<Var2 Text="Считыватель" />
+		</Vars>
+		<Params>
+			<Param1 Name="Считыватель" Type="Reader" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Считыватели&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ВосстановитьДоступ();" />
+			<Line Text="      иначе Сообщить( &quot;Считыватель не найден&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>      
+	<Script ID="34" Name="Предоставить доступ" ScriptGroup="Считыватель">
+		<Vars>
+			<Var1 Text="Считыватели" />
+			<Var2 Text="Считыватель" />
+		</Vars>
+		<Params>
+			<Param1 Name="Считыватель" Type="Reader" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Считыватели&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ПредоставитьДоступ();" />
+			<Line Text="      иначе Сообщить( &quot;Считыватель не найден&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>   
+	<Script ID="35" Name="Заблокировать кнопку &quot;Выход&quot;" ScriptGroup="Считыватель">
+		<Vars>
+			<Var1 Text="Считыватели" />
+			<Var2 Text="Считыватель" />
+		</Vars>
+		<Params>
+			<Param1 Name="Считыватель" Type="Reader" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Считыватели&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.ЗаблокироватьКнопкуВыход();" />
+			<Line Text="      иначе Сообщить( &quot;Считыватель не найден&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>  
+	<Script ID="36" Name="Разблокировать кнопку &quot;Выход&quot;" ScriptGroup="Считыватель">
+		<Vars>
+			<Var1 Text="Считыватели" />
+			<Var2 Text="Считыватель" />
+		</Vars>
+		<Params>
+			<Param1 Name="Считыватель" Type="Reader" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Считыватели&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.РазблокироватьКнопкуВыход();" />
+			<Line Text="      иначе Сообщить( &quot;Считыватель не найден&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>      
+	<Script ID="37" Name="Взять раздел после прохода последнего из зоны доступа" ScriptGroup="Разделы">
+		<Vars>
+            <Var1 Text="ЗоныДоступа" />  
+            <Var2 Text="ЗонаДоступа" />
+            <Var3 Text="Разделы" />
+            <Var4 Text="Раздел" />
+		</Vars>
+		<Params>
+			<Param1 Name="Раздел" Type="Object" ValueType="integer" Default="0" />
+            <Param2 Name="ЗонаДоступа" Type="AccessZone" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+            <Line Text="  :Var1 = СоздатьОбъект( &quot;ЗоныДоступа&quot; );" />
+            <Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+            <Line Text="    :Var3 = СоздатьОбъект( &quot;Разделы&quot; );" />
+            <Line Text="    Если не ПустоеЗначение( :Var3 ) Тогда" />
+            <Line Text="      :Var4 = :Var3.ПолучитьПоИД( :Param1 );" />
+            <Line Text="      :Var2 = :Var1.ПолучитьПоИД( :Param2 );" />
+            <Line Text="      Если не ПустоеЗначение( :Var2 ) Тогда" />
+            <Line Text="        Если ( :Var2.КоличествоСотрудниковВЗонеДоступа() == 0 ) Тогда" />
+            <Line Text="          Если не ПустоеЗначение( :Var4 ) Тогда" />
+            <Line Text="            :Var4.Взять();" />
+            <Line Text="          КонецЕсли;" />
+            <Line Text="        КонецЕсли;" />
+            <Line Text="      КонецЕсли;" />
+            <Line Text="    КонецЕсли;" />
+            <Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>   
+	<Script ID="38" Name="Снять раздел после прохода первого в зону доступа" ScriptGroup="Разделы">
+		<Vars>
+            <Var1 Text="ЗоныДоступа" />  
+            <Var2 Text="ЗонаДоступа" />
+            <Var3 Text="Разделы" />
+            <Var4 Text="Раздел" />
+		</Vars>
+		<Params>
+			<Param1 Name="Раздел" Type="Object" ValueType="integer" Default="0" />
+            <Param2 Name="ЗонаДоступа" Type="AccessZone" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+            <Line Text="  :Var1 = СоздатьОбъект( &quot;ЗоныДоступа&quot; );" />
+            <Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+            <Line Text="    :Var3 = СоздатьОбъект( &quot;Разделы&quot; );" />
+            <Line Text="    Если не ПустоеЗначение( :Var3 ) Тогда" />
+            <Line Text="      :Var4 = :Var3.ПолучитьПоИД( :Param1 );" />
+            <Line Text="      :Var2 = :Var1.ПолучитьПоИД( :Param2 );" />
+            <Line Text="      Если не ПустоеЗначение( :Var2 ) Тогда" />
+            <Line Text="        Если ( :Var2.КоличествоСотрудниковВЗонеДоступа() == 1 ) Тогда" />
+            <Line Text="          Если не ПустоеЗначение( :Var4 ) Тогда" />
+            <Line Text="            :Var4.Снять();" />
+            <Line Text="          КонецЕсли;" />
+            <Line Text="        КонецЕсли;" />
+            <Line Text="      КонецЕсли;" />
+            <Line Text="    КонецЕсли;" />
+            <Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>  
+	<Script ID="39" Name="Взять раздел после прохода последнего c уровнем доступа из зоны доступа" ScriptGroup="Разделы">
+		<Vars>
+            <Var1 Text="ЗоныДоступа" />  
+            <Var2 Text="ЗонаДоступа" />
+            <Var3 Text="Разделы" />
+            <Var4 Text="Раздел" />
+		</Vars>
+		<Params>
+			<Param1 Name="Раздел" Type="Object" ValueType="integer" Default="0" />
+            <Param2 Name="ЗонаДоступа" Type="AccessZone" ValueType="integer" Default="0" />
+            <Param3 Name="Уровень доступа" Type="AccessGroup" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+            <Line Text="  :Var1 = СоздатьОбъект( &quot;ЗоныДоступа&quot; );" />
+            <Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+            <Line Text="    :Var3 = СоздатьОбъект( &quot;Разделы&quot; );" />
+            <Line Text="    Если не ПустоеЗначение( :Var3 ) Тогда" />
+            <Line Text="      :Var4 = :Var3.ПолучитьПоИД( :Param1 );" />
+            <Line Text="      :Var2 = :Var1.ПолучитьПоИД( :Param2 );" />
+            <Line Text="      Если не ПустоеЗначение( :Var2 ) Тогда" />
+            <Line Text="        Если ( :Var2.КоличествоСотрудниковПоуровню( :Param3 ) == 0 ) Тогда" />
+            <Line Text="          Если не ПустоеЗначение( :Var4 ) Тогда" />
+            <Line Text="            :Var4.Взять();" />
+            <Line Text="          КонецЕсли;" />
+            <Line Text="        КонецЕсли;" />
+            <Line Text="      КонецЕсли;" />
+            <Line Text="    КонецЕсли;" />
+            <Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>   
+	<Script ID="40" Name="Снять раздел после прохода первого c уровнем доступа в зону доступа" ScriptGroup="Разделы">
+		<Vars>
+            <Var1 Text="ЗоныДоступа" />  
+            <Var2 Text="ЗонаДоступа" />
+            <Var3 Text="Разделы" />
+            <Var4 Text="Раздел" />
+		</Vars>
+		<Params>
+			<Param1 Name="Раздел" Type="Object" ValueType="integer" Default="0" />
+            <Param2 Name="ЗонаДоступа" Type="AccessZone" ValueType="integer" Default="0" />
+            <Param3 Name="Уровень доступа" Type="AccessGroup" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+            <Line Text="  :Var1 = СоздатьОбъект( &quot;ЗоныДоступа&quot; );" />
+            <Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+            <Line Text="    :Var3 = СоздатьОбъект( &quot;Разделы&quot; );" />
+            <Line Text="    Если не ПустоеЗначение( :Var3 ) Тогда" />
+            <Line Text="      :Var4 = :Var3.ПолучитьПоИД( :Param1 );" />
+            <Line Text="      :Var2 = :Var1.ПолучитьПоИД( :Param2 );" />
+            <Line Text="      Если не ПустоеЗначение( :Var2 ) Тогда" />
+            <Line Text="        Если ( :Var2.КоличествоСотрудниковПоуровню( :Param3 ) == 1 ) Тогда" />
+            <Line Text="          Если не ПустоеЗначение( :Var4 ) Тогда" />
+            <Line Text="            :Var4.Снять();" />
+            <Line Text="          КонецЕсли;" />
+            <Line Text="        КонецЕсли;" />
+            <Line Text="      КонецЕсли;" />
+            <Line Text="    КонецЕсли;" />
+            <Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>  
+    <Script ID="41" Name="Запустить сценарий" ScriptGroup="Сценарии">
+		<Vars>
+            <Var1 Text="СписокСценариев" />
+            <Var2 Text="СценарийДляЗапуска" />
+		</Vars>
+		<Params>
+			<Param1 Name="Сценарий" Type="Script" ValueType="integer" Default="0" />
+            <Param2 Name="Задержка" Type="" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+            <Line Text="  :Var1 = СоздатьОбъект( &quot;Скрипты&quot; );" />
+            <Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+            <Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+            
+            <Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+            <Line Text="      :Var2.ВыполнитьСценарий( :Param2 );" />
+            <Line Text="    КонецЕсли;" />
+            <Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script> 
+	<Script ID="42" Name="Взять раздел после прохода последнего c подразделением из зоны доступа" ScriptGroup="Разделы">
+		<Vars>
+            <Var1 Text="ЗоныДоступа" />  
+            <Var2 Text="ЗонаДоступа" />
+            <Var3 Text="Разделы" />
+            <Var4 Text="Раздел" />
+		</Vars>
+		<Params>
+			<Param1 Name="Раздел" Type="Object" ValueType="integer" Default="0" />
+            <Param2 Name="ЗонаДоступа" Type="AccessZone" ValueType="integer" Default="0" />
+            <Param3 Name="Подразделение" Type="Division" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+            <Line Text="  :Var1 = СоздатьОбъект( &quot;ЗоныДоступа&quot; );" />
+            <Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+            <Line Text="    :Var3 = СоздатьОбъект( &quot;Разделы&quot; );" />
+            <Line Text="    Если не ПустоеЗначение( :Var3 ) Тогда" />
+            <Line Text="      :Var4 = :Var3.ПолучитьПоИД( :Param1 );" />
+            <Line Text="      :Var2 = :Var1.ПолучитьПоИД( :Param2 );" />
+            <Line Text="      Если не ПустоеЗначение( :Var2 ) Тогда" />
+            <Line Text="        Если ( :Var2.КоличествоСотрудниковПоПодразделению( :Param3 ) == 0 ) Тогда" />
+            <Line Text="          Если не ПустоеЗначение( :Var4 ) Тогда" />
+            <Line Text="            :Var4.Взять();" />
+            <Line Text="          КонецЕсли;" />
+            <Line Text="        КонецЕсли;" />
+            <Line Text="      КонецЕсли;" />
+            <Line Text="    КонецЕсли;" />
+            <Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>   
+	<Script ID="43" Name="Снять раздел после прохода первого c подразделением в зону доступа" ScriptGroup="Разделы">
+		<Vars>
+            <Var1 Text="ЗоныДоступа" />  
+            <Var2 Text="ЗонаДоступа" />
+            <Var3 Text="Разделы" />
+            <Var4 Text="Раздел" />
+		</Vars>
+		<Params>
+			<Param1 Name="Раздел" Type="Object" ValueType="integer" Default="0" />
+            <Param2 Name="ЗонаДоступа" Type="AccessZone" ValueType="integer" Default="0" />
+            <Param3 Name="Подразделение" Type="Division" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+            <Line Text="  :Var1 = СоздатьОбъект( &quot;ЗоныДоступа&quot; );" />
+            <Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+            <Line Text="    :Var3 = СоздатьОбъект( &quot;Разделы&quot; );" />
+            <Line Text="    Если не ПустоеЗначение( :Var3 ) Тогда" />
+            <Line Text="      :Var4 = :Var3.ПолучитьПоИД( :Param1 );" />
+            <Line Text="      :Var2 = :Var1.ПолучитьПоИД( :Param2 );" />
+            <Line Text="      Если не ПустоеЗначение( :Var2 ) Тогда" />
+            <Line Text="        Если ( :Var2.КоличествоСотрудниковПоПодразделению( :Param3 ) == 1 ) Тогда" />
+            <Line Text="          Если не ПустоеЗначение( :Var4 ) Тогда" />
+            <Line Text="            :Var4.Снять();" />
+            <Line Text="          КонецЕсли;" />
+            <Line Text="        КонецЕсли;" />
+            <Line Text="      КонецЕсли;" />
+            <Line Text="    КонецЕсли;" />
+            <Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>     
+	<Script ID="44" Name="Взять камеру на охрану" ScriptGroup="Камера">
+		<Vars>
+			<Var1 Text="Камеры" />
+			<Var2 Text="Камера" />
+		</Vars>
+		<Params>
+			<Param1 Name="Камера" Type="Camera" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text=":Var1 = СоздатьОбъект( &quot;Камеры&quot; );" />
+			<Line Text="Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text=":Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text=":Var2.Взять();" />
+			<Line Text="КонецЕсли;" />
+			<Line Text="КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="45" Name="Снять камеру с охраны" ScriptGroup="Камера">
+		<Vars>
+			<Var1 Text="Камеры" />
+			<Var2 Text="Камера" />
+		</Vars>
+		<Params>
+			<Param1 Name="Камера" Type="Camera" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text=":Var1 = СоздатьОбъект( &quot;Камеры&quot; );" />
+			<Line Text="Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text=":Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text=":Var2.Снять();" />
+			<Line Text="КонецЕсли;" />
+			<Line Text="КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="46" Name="Начать запись" ScriptGroup="Камера">
+		<Vars>
+			<Var1 Text="Камеры" />
+			<Var2 Text="Камера" />
+		</Vars>
+		<Params>
+			<Param1 Name="Камера" Type="Camera" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text=":Var1 = СоздатьОбъект( &quot;Камеры&quot; );" />
+			<Line Text="Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text=":Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text=":Var2.НачатьЗапись();" />
+			<Line Text="КонецЕсли;" />
+			<Line Text="КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="47" Name="Закончить запись" ScriptGroup="Камера">
+		<Vars>
+			<Var1 Text="Камеры" />
+			<Var2 Text="Камера" />
+		</Vars>
+		<Params>
+			<Param1 Name="Камера" Type="Camera" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text=":Var1 = СоздатьОбъект( &quot;Камеры&quot; );" />
+			<Line Text="Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text=":Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text=":Var2.Закончитьзапись();" />
+			<Line Text="КонецЕсли;" />
+			<Line Text="КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="48" Name="Включить детектор движения" ScriptGroup="Камера">
+		<Vars>
+			<Var1 Text="Камеры" />
+			<Var2 Text="Камера" />
+		</Vars>
+		<Params>
+			<Param1 Name="Камера" Type="Camera" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text=":Var1 = СоздатьОбъект( &quot;Камеры&quot; );" />
+			<Line Text="Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text=":Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text=":Var2.ВключитьДетектор();" />
+			<Line Text="КонецЕсли;" />
+			<Line Text="КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="49" Name="Выключить детектор движения" ScriptGroup="Камера">
+		<Vars>
+			<Var1 Text="Камеры" />
+			<Var2 Text="Камера" />
+		</Vars>
+		<Params>
+			<Param1 Name="Камера" Type="Camera" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text=":Var1 = СоздатьОбъект( &quot;Камеры&quot; );" />
+			<Line Text="Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text=":Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text=":Var2.ВыключитьДетектор();" />
+			<Line Text="КонецЕсли;" />
+			<Line Text="КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="50" Name="Показать на экране" ScriptGroup="Камера">
+		<Vars>
+			<Var1 Text="Камеры" />
+			<Var2 Text="Камера" />
+		</Vars>
+		<Params>
+			<Param1 Name="Камера" Type="Camera" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text=":Var1 = СоздатьОбъект( &quot;Камеры&quot; );" />
+			<Line Text="Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text=":Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text=":Var2.Показать();" />
+			<Line Text="КонецЕсли;" />
+			<Line Text="КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="51" Name="Убрать показ на экране" ScriptGroup="Камера">
+		<Vars>
+			<Var1 Text="Камеры" />
+			<Var2 Text="Камера" />
+		</Vars>
+		<Params>
+			<Param1 Name="Камера" Type="Camera" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text=":Var1 = СоздатьОбъект( &quot;Камеры&quot; );" />
+			<Line Text="Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text=":Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text=":Var2.Скрыть();" />
+			<Line Text="КонецЕсли;" />
+			<Line Text="КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="52" Name="Повернуть" ScriptGroup="Камера">
+		<Vars>
+			<Var1 Text="Камеры" />
+			<Var2 Text="Камера" />
+		</Vars>
+		<Params>
+			<Param1 Name="Камера" Type="Camera" ValueType="integer" Default="0" />
+			<Param2 Name="Позиция" ValueType="integer" Default="0" />
+		</Params>
+		<ScriptText>
+			<Line Text=":Var1 = СоздатьОбъект( &quot;Камеры&quot; );" />
+			<Line Text="Если Не пустоеЗначение( :Var1 ) Тогда" />
+			<Line Text=":Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="Если Не пустоеЗначение( :Var2 ) Тогда" />
+			<Line Text=":Var2.Повернуть( :Param2 );" />
+			<Line Text="КонецЕсли;" />
+			<Line Text="КонецЕсли;" />
+		</ScriptText>
+	</Script>
+	<Script ID="53" Name="АСПТ" ScriptGroup="Выходы">
+		<Vars>
+			<Var1 Text="Выходы" />
+			<Var2 Text="Реле" />
+		</Vars>
+		<Params>
+			<Param1 Name="Реле" Type="Relay" ValueType="integer" Default="0" />
+			<Param2 Name="Задержка управления" ValueType="integer" Default="0" />
+            <Param3 Name="Время управления" ValueType="integer" Default="0" Special="1" />
+		</Params>
+		<ScriptText>
+			<Line Text="  :Var1 = СоздатьОбъект( &quot;Выходы&quot; );" />
+			<Line Text="  Если не ПустоеЗначение( :Var1 ) Тогда" />
+			<Line Text="    :Var2 = :Var1.ПолучитьПоИД( :Param1 );" />
+			<Line Text="    Если не ПустоеЗначение( :Var2 ) Тогда" />
+			<Line Text="      :Var2.АСПТ( &quot;0&quot;, &quot;:Param2&quot;, &quot;:Param3&quot; );" />
+			<Line Text="      иначе Сообщить( &quot;Реле не найдено&quot;, 1 );" />
+			<Line Text="    КонецЕсли;" />
+			<Line Text="  КонецЕсли;" />
+		</ScriptText>
+	</Script>
+</ScriptPatters>

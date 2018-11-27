@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<БД>
+<ТАБЛИЦА>
+	CREATE TABLE  dTypes (ID int  ,  PRIMARY KEY (ID ), Name varchar (25) NULL, CountShl int  NULL, CountKey int  NULL, CountReader int  NULL, Comment varchar (200) NULL, Face int  NULL, Icon int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  dTypesElement (ID int  ,  PRIMARY KEY (ID ), DeviceType int  , DeviceVersion int  NULL, ElementType int  NULL, Name varchar (50) , CountShl int  , CountKey int  , CountReader int  , Comment varchar (200) , EventGroupID int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  Comps (ID int  ,  PRIMARY KEY (ID ), Gindex int  , Name varchar (15) , Psevdonim varchar (40) NULL, TCP_IP varchar (15) NULL, Gtype int  , Priority int  NULL, Works int  NULL, TypeEvents int  NULL, IpReservSrv varchar (20) NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  ComPorts (ID int  ,  PRIMARY KEY (ID ), ComputerID int  , Number int  , Adaptor int  , PrAdaptor int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  CompTrns (ID int  ,  PRIMARY KEY (ID ), SenderID int  , ReceptorID int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  Events (Event int  ,  PRIMARY KEY (Event ), CharID varchar (2) NULL, Contents varchar (100) NULL, Comment varchar (200) NULL, RealEvent int  NULL, State int  NULL, Category int  NULL, FormatView int  NULL, SoundNumber int  NULL, AlarmLevel int  NULL, GpEvent int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  RSLines (ID int  ,  PRIMARY KEY (ID ), GIndex int  , ComPortID int  , PKUID int  , GLineNo int  , Name varchar (25) NULL, DeviceType int  NULL, Comment varchar (200) NULL, Priority int  NULL, Broadcast int  NULL, DeviceVersion int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  ItemEvents (ID int  ,  PRIMARY KEY (ID ), ItemType int  NULL, ItemID int  , ItemEvent int  , EventID int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  EventGroup (ID int  ,  PRIMARY KEY (ID ), Name varchar (100) , Comment varchar (200) NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  EventGroupCont (ID int  ,  PRIMARY KEY (ID ), EventGroupID int  , EventID int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  LinesBroadcast (ID int  ,  PRIMARY KEY (ID ), EventGroupID int  , DeviceID int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  DevElms (ID int  ,  PRIMARY KEY (ID ), DevID int  , GType int  , UnitID int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  pObjects (ID int  ,  PRIMARY KEY (ID ), GIndex int  , SimIndex varchar (1) NULL, ComputerID int  , Name varchar (30) NULL, Comment varchar (200) NULL, State int  NULL, Config int  NULL, AlarmKey int  NULL, GuardKey int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  pObjCont (ID int  ,  PRIMARY KEY (ID ), ObjectID int  , ShleifID int  , ItemType int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  GroupObj (ID int  ,  PRIMARY KEY (ID ), GIndex int  , ComputerID int  , Name varchar (25) , Comment varchar (200) NULL, State int  NULL, Config int  NULL, AlarmKey int  NULL, GuardKey int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  GrObjCont (ID int  ,  PRIMARY KEY (ID ), GrObjID int  , ObjID int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  KeyObjs (ID int  ,  PRIMARY KEY (ID ), Status int  , KeyID int  , ObjectID int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  pMaps (ID int  ,  PRIMARY KEY (ID ), Name varchar (25) NULL, Comment varchar (200) NULL, GIndex int  , ComputerID int  , PlanChild int  NULL, Spack int  NULL, Contents image NULL, ChangeTime datetime NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  Map_Elm (ID int  ,  PRIMARY KEY (ID ), MapID int  , GType int  , Num int  NULL, UnitID int  , PictureCount int  NULL, Pictures image NULL, ChangeTime datetime NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  Script (ID int  ,  PRIMARY KEY (ID ), Name varchar (25) , Comment varchar (200) NULL, HotKey int  NULL, Config int  NULL, Content image NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  EvReply (ID int  ,  PRIMARY KEY (ID ), ComputerID int  , Source int  , EventType int  , UnitID int  , ScriptID int  , Data int  NULL, DataType int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  TreeCtrl (ID int  ,  PRIMARY KEY (ID ), AbsoluteIndex int  , Text varchar (200) , GLevel int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  TreeNode (Num int  ,  PRIMARY KEY (Num ), ID int  , Comment varchar (200) NULL, Icon int  NULL, Special int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  NodeRepl (ID int  ,  PRIMARY KEY (ID ), NodeID int  , ScriptID int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  Holidays (ID int  ,  PRIMARY KEY (ID ), Name varchar (25) , GDate datetime NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  GTime (ID int  ,  PRIMARY KEY (ID ), Name varchar (25) NULL, Comment varchar (200) NULL, Calendar image NULL, TimeWinType int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  TimeCont (ID int  ,  PRIMARY KEY (ID ), TimeID int  , Num int  NULL, Start datetime NULL, Finish datetime NULL, Days int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  AccessZone (ID int  ,  PRIMARY KEY (ID ), Name varchar (25) NULL, Comment varchar (200) NULL, GIndex int  , Config int  NULL, Status int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  AcessPoint (ID int  ,  PRIMARY KEY (ID ), ComputerID int  , Name varchar (25) NULL, Comment varchar (255) NULL, GIndex int  , Gtype int  , InKeyID int  NULL, InDuration int  NULL, InCommand int  NULL, OutKeyID int  NULL, OutDuration int  NULL, OutCommand int  NULL, InKeyID2 int  NULL, InDuration2 int  NULL, InCommand2 int  NULL, OutKeyID2 int  NULL, OutDuration2 int  NULL, OutCommand2 int  NULL, Config int  NULL, IndexZone1 int  NULL, IndexZone2 int  NULL, IndexZone3 int  NULL, IndexZone4 int  NULL, WorkTimeZone1 int  NULL, WorkTimeZone2 int  NULL, WorkTimeZone3 int  NULL, WorkTimeZone4 int  NULL, Mode int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  RdrAccessPoint (ID int  ,  PRIMARY KEY (ID ), ReaderID int  , Mode int  , AccessPointID int  , ModeAcess int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  WorkTimeZone (ID int  ,  PRIMARY KEY (ID ), Name varchar (25) , Comment varchar (200) , GIndex int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  Reasons (ID int  ,  PRIMARY KEY (ID ), EmployeeID int  , DateStart datetime NULL, DateEnd datetime NULL, Reason varchar (50) NULL, Comment varchar (255) NULL, TimeStart datetime NULL, TimeEnd datetime NULL, Operator varchar (100) NULL, GoodTime int  NULL, BUTNOTCALC int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  TimeTable (ID int  ,  PRIMARY KEY (ID ), Name varchar (50) , WorkTimeZoneID int  , TimeID int  , Config int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  Groups (ID int  ,  PRIMARY KEY (ID ), Name varchar (25) NULL, Comment varchar (200) NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  GrAccess (ID int  ,  PRIMARY KEY (ID ), GroupID int  , Mode int  , AccessID int  , Config int  NULL, TimeZone int  , Antipassback int  NULL, PardonTime datetime NULL, ConfirmID int  NULL, ConfirmID2 int  NULL, Flags int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  PDivision (ID int  ,  PRIMARY KEY (ID ), Name varchar (80) , Description varchar (100) NULL, Shedule int  NULL, GroupID int  NULL, Number int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  PPost (ID int  ,  PRIMARY KEY (ID ), Name varchar (80) , Number int  NULL, StatusMark int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  PCompany (ID int  ,  PRIMARY KEY (ID ), Name varchar (50) , Address varchar (150) NULL, Phone varchar (30) NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  pList (ID int  ,  PRIMARY KEY (ID ), Name varchar (25) , FirstName varchar (25) , MidName varchar (25) NULL, Status int  , WorkPhone varchar (25) NULL, HomePhone varchar (25) NULL, Picture image NULL, BirthDate datetime NULL, Address varchar (200) NULL, Company int  NULL, Section int  NULL, Post int  NULL, Schedule int  NULL, Avto varchar (80) NULL, Spack int  NULL, Config int  NULL, TabNumber int  NULL, GrStatus int  NULL, ChangeTime datetime NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  pMark (ID int  ,  PRIMARY KEY (ID ), Gtype int  , GTypeCodeAdd int  NULL, Config int  , CodeP varchar (50) NULL, CodePAdd varchar (50) NULL, Status int  NULL, Owner int  , OwnerName varchar (30) NULL, GrStatus int  NULL, GroupID int  , Start datetime NULL, Finish datetime NULL, Fingerprint image NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  Schedule (ID int  ,  PRIMARY KEY (ID ), ScriptID int  NULL, Calendar image NULL, TimeID int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  Guest (ID int  ,  PRIMARY KEY (ID ), PListID int  , Name varchar (80) NULL, FirstName varchar (25) NULL, MidName varchar (25) NULL, WorkPhone varchar (25) NULL, HomePhone varchar (25) NULL, Picture image NULL, BirthDate datetime NULL, Address varchar (200) NULL, Company varchar (50) NULL, Section varchar (80) NULL, Post varchar (80) NULL, Comment varchar (240) NULL, TimeStart datetime NULL, TimeEnd datetime NULL, Avto varchar (80) NULL, Spack int  NULL, IDcustomer int  NULL, EscortName varchar (25) NULL, EscortFirstName varchar (25) NULL, EscortMidName varchar (25) NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  m_alarm (Time0 datetime NULL, Num_GUID varchar (40) ,  PRIMARY KEY (Num_GUID ), NumCom int  NULL, IDComp int  NULL, Operator0 int  NULL, OperatorName varchar (25) NULL, EventName varchar (25) NULL, ZoneName varchar (30) NULL, ObjectName varchar (30) NULL, Event int  , AddrCOM int  NULL, Address int  NULL, Object int  NULL, Action1 varchar (25) NULL, Time1 datetime NULL, Operator1 int  NULL, Action2 varchar (25) NULL, Time2 datetime NULL, Operator2 int  NULL, Action3 varchar (25) NULL, Time3 datetime NULL, Operator3 int  NULL, Action4 varchar (25) NULL, Time4 datetime NULL, Operator4 int  NULL, Action5 varchar (25) NULL, Time5 datetime NULL, Operator5 int  NULL, Action6 varchar (25) NULL, Time6 datetime NULL, Operator6 int  NULL, Stage int  NULL, DoorID int  NULL, ZoneType int  NULL, AccessZoneIndex int  NULL, VEvent int  NULL, ZReserv int  NULL, Zone int  NULL, IndexZone int  NULL, tpIndex int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  SysParam (Num int  ,  PRIMARY KEY (Num ), ID int  , ComputerID int  , Name varchar (25) NULL, Gtype int  NULL, GValue int  NULL, Required int  NULL, Comment varchar (200) NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  DevItems (ID int  ,  PRIMARY KEY (ID ), ComputerID int  , DeviceID int  , Address int  , GIndex int  , Name varchar (30) NULL, Comment varchar (200) NULL, GType int  NULL, ItemType int  , State int  NULL, Command int  NULL, TimeOutControl int  NULL, TimeOutConfig int  NULL, Config int  NULL, Flags int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  Sys (ID int  ,  PRIMARY KEY (ID ), Number int  , Name varchar (200) , Gtype int  , MinValue int  , MaxValue int  , DefaultValue int  , Required int  , Comments varchar (200) , Hint varchar (200) , List image NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  Cameras (ID int  ,  PRIMARY KEY (ID ), Name varchar (25) NULL, CamNumber int  NULL, MonNumber int  NULL, GType int  NULL, FAlertRecord int  NULL, RecTimeAfterAlarm int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  vInsp (ID int  ,  PRIMARY KEY (ID ), ComputerID int  , Name varchar (30) NULL, TCP_IP varchar (15) NULL, VinspType int  NULL, ActiveX int  NULL, CompName varchar (30) NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  VersionDB (Num int  ,  PRIMARY KEY (Num ), Version varchar (10) , VersionDataBase varchar (20) , CountTable int  , Info varchar (40) , Rezerv1 int  , GUID_DB varchar (100) NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  pLogData (TimeVal datetime , Num_GUID varchar (40) ,  PRIMARY KEY (Num_GUID ), NumCom int  NULL, IDComp int  NULL, Par1 int  NULL, Par2 int  NULL, Par3 int  NULL, Par4 int  NULL, Event int  , IndexKey int  NULL, RazdIndex int  NULL, HozOrgan int  NULL, HozGuest int  NULL, Remark varchar (30) NULL, DoorIndex int  NULL, Mode int  NULL, DeviceTime datetime NULL, VEvent int  NULL, ZReserv int  NULL, ZoneIndex int  NULL, ReaderIndex int  NULL, Sign int  NULL, tpRzdIndex int  NULL, tpPar4 int  NULL, IndexZone int  NULL, tpIndex int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  Counters (TableName varchar (20) , FieldName varchar (20) , Counter int   )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  adc (TimeVal datetime NULL, ID_GUID varchar (40) ,  PRIMARY KEY (ID_GUID ), IndexZone int  NULL, IndexDevice int  NULL, ComputerID int  NULL, LogID int  NULL, ADC int  NULL, Status int  NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  logs (ID int  ,  PRIMARY KEY (ID ), tpChange int  NULL, OperatorName varchar (50) NULL, OperatorID int  NULL, ComputerName varchar (50) NULL, ComputerIP int  NULL, TimeVal datetime NULL, RuquestDATA image NULL, Reserv0 int  NULL, Reserv1 int  NULL, Reserv2 varchar (20) NULL )</ТАБЛИЦА>
+<ТАБЛИЦА>
+	CREATE TABLE  QueryLog (ID int  ,  PRIMARY KEY (ID ), TimeVal datetime NULL, IP varchar (15) NULL, OperatorID int  NULL, OperatorName varchar (100) NULL, ProgramID int  NULL, Query image NULL, Parameters image NULL, Action varchar (10) NULL, TableName varchar (30) NULL )</ТАБЛИЦА>
+</БД>

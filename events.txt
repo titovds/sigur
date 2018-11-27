@@ -1,0 +1,28 @@
+1	AC Loss	3	301	2
+2	AC Loss	1	301	2
+3	Interior	1	132	0
+17	Auto-arm failed	1	454	0
+37	Fire	1	110	0
+44	Near alarm	1	118	0
+45	Fire trouble	1	373	0
+222	Polling loop open	1	331	2
+47	Polling loop open	3	331	2
+215	Polling loop short	1	332	2
+58	Silent alarm	1	122	0
+249	Program mode entry	1	627	2
+118	Entry alarm	1	134	0
+121	Sounder/relay (trouble)	1	320	0
+123	Sounder/relay (trouble)	3	320	0
+135	Self test failure	1	307	2
+149	Sensor tamper	1	383	2
+152	Sensor tamper	3	383	2
+198	Low system battery	1	302	2
+199	Low system battery	3	302	2
+203	System reset	1	305	2
+223	Patrol mark	1	999	2
+241	Open/Close by user	3	401	1
+242	Open/Close by user	1	401	1
+250	Communicaton trouble	1	350	2
+251	Communicaton trouble	3	350	2
+198 System battery trouble	1	309	2
+

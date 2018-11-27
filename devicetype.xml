@@ -1,0 +1,3473 @@
+<?xml version="1.0" encoding="Windows-1251" ?>
+
+<methodCall>
+
+  <methodName>TypesOrionDevices</methodName>
+
+   <params>
+
+   <param>
+
+<value>
+  <struct>
+    <member>
+      <name>ARRAYTYPEDEVICES</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>124</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>1</int></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>200</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Сигнал 20</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Сигнал 20</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>20</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Сигнал-20П</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Сигнал-20П</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>200</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>20</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>5</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>203</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>20</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>5</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>CompatibleQuery</name>
+      <value>
+		<array>
+			<data>
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>87</int></value>
+    						</member>   
+  					</struct>
+				</value>
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>25</int></value>
+    						</member>   
+  					</struct>
+				</value>
+ 			</data>
+		</array>
+	</value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>20</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>5</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>3</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-СП1</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-СП1</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>150</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>CompatibleQueryOutKey</name>
+      <value>
+		<array>
+			<data>
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>87</int></value>
+    						</member>   
+  					</struct>
+				</value>			
+ 			</data>
+		</array>
+	</value>
+    </member>
+
+  </struct>
+</value>
+
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-4</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-4</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>210</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>CompatibleQueryOutKey</name>
+      <value>
+		<array>
+			<data>
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>87</int></value>
+    						</member>   
+  					</struct>
+				</value>			
+ 			</data>
+		</array>
+	</value>
+    </member>
+
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>300</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>CompatibleQueryOutKey</name>
+      <value>
+		<array>
+			<data>
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>87</int></value>
+    						</member>   
+  					</struct>
+				</value>			
+ 			</data>
+		</array>
+	</value>
+    </member>
+
+  </struct>
+</value>
+
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>7</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-К</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-К</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>8</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-ИТ</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-ИТ</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>9</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-КДЛ</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-КДЛ</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>127</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>127</int></value>
+    </member>
+    <member>
+      <name>CONFIGURATION</name>
+      <value><string>CloneKDL</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>115</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>127</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>127</int></value>
+    </member>
+    <member>
+      <name>CONFIGURATION</name>
+      <value><string>CloneKDL</string></value>
+    </member>
+  </struct>
+</value>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>130</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>127</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>127</int></value>
+    </member>
+    <member>
+      <name>CONFIGURATION</name>
+      <value><string>CloneKDL</string></value>
+    </member>
+    <member>
+      <name>CompatibleQuery</name>
+      <value>
+		<array>
+			<data>				
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>25</int></value>
+    						</member>   
+  					</struct>
+				</value>
+ 			</data>
+		</array>
+	</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>145</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>127</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>127</int></value>
+    </member>
+    <member>
+      <name>CONFIGURATION</name>
+      <value><string>CloneKDL</string></value>
+    </member>
+    <member>
+      <name>CompatibleQuery</name>
+      <value>
+		<array>
+			<data>				
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>25</int></value>
+    						</member>   
+  					</struct>
+				</value>
+ 			</data>
+		</array>
+	</value>
+
+    </member>
+    <member>
+      <name>CompatibleQueryOutKey</name>
+      <value>
+		<array>
+			<data>
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>87</int></value>
+    						</member>   
+  					</struct>
+				</value>			
+ 			</data>
+		</array>
+	</value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>10</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-БИ</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-БИ</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>104</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>200</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>11</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Сигнал 20 серия 02</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Signal 20</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>200</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>20</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>5</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>12</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-ECO</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-ECO</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>64</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>64</int></value>
+    </member>
+    <member>
+      <name>CONFIGURATION</name>
+      <value><string>CloneKDL</string></value>
+    </member>
+
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>13</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-КС</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-КС</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>14</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-АСПТ</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-АСПТ</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>6</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>5</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member> 
+    <member>
+      <name>CONFIGURATION</name>
+      <value><string>FREEONCONFIGURATION</string></value>
+    </member>  
+  </struct>
+</value>
+
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>6</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>5</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>   
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>200</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>11</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>5</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>CONFIGURATION</name>
+      <value><string>FREEONCONFIGURATION</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>15</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-КПБ</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-КПБ</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>6</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>108</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>6</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>CompatibleQueryOutKey</name>
+      <value>
+		<array>
+			<data>
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>87</int></value>
+    						</member>   
+  					</struct>
+				</value>			
+ 			</data>
+		</array>
+	</value>
+    </member>
+
+  </struct>
+</value>
+
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>16</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-2</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-2</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>115</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>CompatibleQueryOutKey</name>
+      <value>
+		<array>
+			<data>
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>87</int></value>
+    						</member>   
+  					</struct>
+				</value>			
+ 			</data>
+		</array>
+	</value>
+    </member>
+
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>17</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-GSM</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-GSM</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>18</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-Эфир</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-Эфир</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>19</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>УО Орион</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>УО Орион</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>20</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Рупор</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Рупор</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>21</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Пульт &quot;Рупор&quot;</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Пульт &quot;Рупор&quot;</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>22</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-ПТ</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-ПТ</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>23</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-ПЦН</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-ПЦН</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>24</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>УО-4С</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>УО-4С</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>25</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Поток-3Н</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Поток-3Н</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>58</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>103</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>139</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>5</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>CONFIGURATION</name>
+      <value><string>FREEONCONFIGURATION</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>26</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Сигнал-20М</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Сигнал-20М</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>20</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>5</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>101</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>20</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>5</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>CompatibleQueryOutKey</name>
+      <value>
+		<array>
+			<data>
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>87</int></value>
+    						</member>   
+  					</struct>
+				</value>			
+ 			</data>
+		</array>
+	</value>
+    </member>
+
+  </struct>
+</value>
+
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>27</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-USB</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000-USB</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>33</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>РИП-12 RS</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>RIP-12 RS</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>5</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>31</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-Adem</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>S2000-Adem</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>136</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>134</int></value>
+    </member>
+    <member>
+      <name>CompatibleQuery</name>
+      <value>
+		<array>
+			<data>
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>87</int></value>
+    						</member>   
+  					</struct>
+				</value>
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>25</int></value>
+    						</member>   
+  					</struct>
+				</value>
+ 			</data>
+		</array>
+	</value>
+
+    </member>
+  </struct>
+</value>
+
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>30</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Рупор исп. 01</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Рупор исп. 01</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>2</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>    
+  </struct>
+</value>
+
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>34</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Cигнал-10</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>Signal-10</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>10</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>CONFIGURATION</name>
+      <value><string>FREEONCONFIGURATION</string></value>
+    </member> 
+    <member>
+      <name>CompatibleQueryOutKey</name>
+      <value>
+		<array>
+			<data>
+				<value>
+  					<struct>
+    						<member>
+      						<name>Type</name>
+      						<value><int>87</int></value>
+    						</member>   
+  					</struct>
+				</value>			
+ 			</data>
+		</array>
+	</value>
+    </member>
+  
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>24</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>УО-4С</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>UO-4S</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>4</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+
+
+
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>28</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000- БИ исп.01</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>C2000- БИ исп.01</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>1</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>DEVTYPE</name>
+      <value><int>29</int></value>
+    </member>
+    <member>
+      <name>TYPELANGUAGE</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>RUS</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-Ethernet</string></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>TYPELANGUAGE</name>
+      <value><string>ENG</string></value>
+    </member>
+    <member>
+      <name>NAMEDEVICE</name>
+      <value><string>С2000-Ethernet</string></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+    <member>
+      <name>ARRAYVERSIONS</name>
+<value>
+  <array>
+    <data>
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+<value>
+  <struct>
+    <member>
+      <name>VERSION</name>
+      <value><int>100</int></value>
+    </member>
+    <member>
+      <name>COUNTSHL</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTOUTKEY</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTREADER</name>
+      <value><int>0</int></value>
+    </member>
+    <member>
+      <name>COUNTZONE</name>
+      <value><int>0</int></value>
+    </member>
+  </struct>
+</value>
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+
+  </data>
+</array>
+</value>
+
+    </member>
+  </struct>
+</value>
+
+
+   </param>
+
+   </params>
+
+</methodCall>
+

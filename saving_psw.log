@@ -1,0 +1,2801 @@
+12.09.2018 10:08:57  
+
+
+12.09.2018 10:08:57  insert table=Comps
+12.09.2018 10:08:57  
+
+INSERT INTO Comps ( ID, Name, TCP_IP, GType, GIndex, IpReservSrv ) VALUES( :ParamID, :ParamName, :ParamTCP_IP, :ParamGType, :ParamGIndex, :ParamIpReservSrv )
+
+12.09.2018 10:08:57  Param 0 (qrComputersID)= 9
+12.09.2018 10:08:57  Param 1 (qrComputersName)= test
+12.09.2018 10:08:57  Param 2 (qrComputersTCP_IP)= 172.16.153.113
+12.09.2018 10:08:57  Param 3 (qrComputersGType)= 0
+12.09.2018 10:08:57  Param 4 (qrComputersGIndex)= 9
+12.09.2018 10:08:57  Param 5 (qrComputersIpReservSrv)= 
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 77
+12.09.2018 10:08:58  Param 1 (qrParamID)= 3
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 2
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 0
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 1
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 78
+12.09.2018 10:08:58  Param 1 (qrParamID)= 90
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 2
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 0
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 1
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 79
+12.09.2018 10:08:58  Param 1 (qrParamID)= 1007
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 2
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 1
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 1
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 80
+12.09.2018 10:08:58  Param 1 (qrParamID)= 29
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 2
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 1
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 0
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 81
+12.09.2018 10:08:58  Param 1 (qrParamID)= 61
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 3
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 60
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 0
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 82
+12.09.2018 10:08:58  Param 1 (qrParamID)= 65
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 2
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 1
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 1
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 83
+12.09.2018 10:08:58  Param 1 (qrParamID)= 66
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 3
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 3
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 1
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 84
+12.09.2018 10:08:58  Param 1 (qrParamID)= 67
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 3
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 1
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 1
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 85
+12.09.2018 10:08:58  Param 1 (qrParamID)= 1004
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 1
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 1
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 1
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 86
+12.09.2018 10:08:58  Param 1 (qrParamID)= 70
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 3
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 7
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 0
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 87
+12.09.2018 10:08:58  Param 1 (qrParamID)= 1000
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 2
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 1
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 0
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 88
+12.09.2018 10:08:58  Param 1 (qrParamID)= 1001
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 3
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 1000
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 0
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 89
+12.09.2018 10:08:58  Param 1 (qrParamID)= 1002
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 3
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 5
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 0
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 90
+12.09.2018 10:08:58  Param 1 (qrParamID)= 101
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 2
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 1
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 1
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 91
+12.09.2018 10:08:58  Param 1 (qrParamID)= 102
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 3
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 10
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 0
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 92
+12.09.2018 10:08:58  Param 1 (qrParamID)= 103
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 3
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 10
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 0
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 93
+12.09.2018 10:08:58  Param 1 (qrParamID)= 1003
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 2
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 1
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 0
+12.09.2018 10:08:58  
+
+
+12.09.2018 10:08:58  insert table=SysParam
+12.09.2018 10:08:58  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+12.09.2018 10:08:58  Param 0 (qrParamNum)= 94
+12.09.2018 10:08:58  Param 1 (qrParamID)= 1008
+12.09.2018 10:08:58  Param 2 (qrParamName)= 
+12.09.2018 10:08:58  Param 3 (qrParamType)= 2
+12.09.2018 10:08:58  Param 4 (qrParamValue)= 1
+12.09.2018 10:08:58  Param 5 (qrParamComment)= 
+12.09.2018 10:08:58  Param 6 (qrParamComputerID)= 9
+12.09.2018 10:08:58  Param 7 (qrParamRequired)= 0
+12.09.2018 10:09:24  
+
+UPDATE Comps SET  Name=:ParamName, TCP_IP=:ParamTCP_IP, GType=:ParamGType, GIndex=:ParamGIndex, IpReservSrv=:ParamIpReservSrv WHERE ID=:ParamID
+
+12.09.2018 10:09:24  Param 0 (qrComputersName)= test
+12.09.2018 10:09:24  Param 1 (qrComputersTCP_IP)= 172.16.153.113
+12.09.2018 10:09:24  Param 2 (qrComputersGType)= 128
+12.09.2018 10:09:24  Param 3 (qrComputersGIndex)= 9
+12.09.2018 10:09:24  Param 4 (qrComputersIpReservSrv)= 
+12.09.2018 10:09:24  Param 5 (qrComputersID)= 9
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 3
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 2
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 0
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 1
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 77
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 90
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 2
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 0
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 1
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 78
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 1007
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 2
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 1
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 1
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 79
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 29
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 2
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 1
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 0
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 80
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 61
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 3
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 60
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 0
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 81
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 65
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 2
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 1
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 1
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 82
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 66
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 3
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 3
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 1
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 83
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 67
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 3
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 1
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 1
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 84
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 1004
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 1
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 1
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 1
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 85
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 70
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 3
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 7
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 0
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 86
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 1000
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 2
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 1
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 0
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 87
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 1001
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 3
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 1000
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 0
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 88
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 1002
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 3
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 5
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 0
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 89
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 101
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 2
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 1
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 1
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 90
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 102
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 3
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 10
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 0
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 91
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 103
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 3
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 10
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 0
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 92
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 1003
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 2
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 1
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 0
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 93
+12.09.2018 10:09:24  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+12.09.2018 10:09:24  Param 0 (qrParamID)= 1008
+12.09.2018 10:09:24  Param 1 (qrParamName)= 
+12.09.2018 10:09:24  Param 2 (qrParamType)= 2
+12.09.2018 10:09:24  Param 3 (qrParamValue)= 1
+12.09.2018 10:09:24  Param 4 (qrParamComment)= 
+12.09.2018 10:09:24  Param 5 (qrParamComputerID)= 9
+12.09.2018 10:09:24  Param 6 (qrParamRequired)= 0
+12.09.2018 10:09:24  Param 7 (qrParamNum)= 94
+12.09.2018 10:13:56  
+
+
+12.09.2018 10:13:56  insert table=RSLines
+12.09.2018 10:13:56  
+
+INSERT INTO RSLines ( ID, GLineNo, DeviceType, GIndex, Name, Comment, Broadcast, ComPortID, PKUID, Priority, DeviceVersion, IdContactName, IdDevice ) VALUES( :ParamID, :ParamGLineNo, :ParamDeviceType, :ParamGIndex, :ParamName, :ParamComment, :ParamBroadcast, :ParamComPortID, :ParamPKUID, :ParamPriority, :ParamDeviceVersion, :ParamIdContactName, :ParamIdDevice )
+
+12.09.2018 10:13:56  Param 0 (qrRSLineID)= 424
+12.09.2018 10:13:56  Param 1 (qrRSLineLineNo)= 1
+12.09.2018 10:13:56  Param 2 (qrRSLineDeviceType)= 29
+12.09.2018 10:13:56  Param 3 (qrRSLineGIndex)= 2
+12.09.2018 10:13:56  Param 4 (qrRSLineName)= C2000-Ethernet (1)
+12.09.2018 10:13:56  Param 5 (qrRSLineComment)= 
+12.09.2018 10:13:56  Param 6 (qrRSLineBroadcast)= 
+12.09.2018 10:13:56  Param 7 (qrRSLineComPortID)= 25
+12.09.2018 10:13:56  Param 8 (qrRSLinePKUID)= 0
+12.09.2018 10:13:56  Param 9 (qrRSLinePriority)= 0
+12.09.2018 10:13:56  Param 10 (qrRSLineDeviceVersion)= 0
+12.09.2018 10:13:56  Param 11 (qrRSLineIdContactName)= 
+12.09.2018 10:13:56  Param 12 (qrRSLineIdDevice)= 0
+12.09.2018 10:16:13  
+
+
+12.09.2018 10:16:13  insert table=RSLines
+12.09.2018 10:16:13  
+
+INSERT INTO RSLines ( ID, GLineNo, DeviceType, GIndex, Name, Comment, Broadcast, ComPortID, PKUID, Priority, DeviceVersion, IdContactName, IdDevice ) VALUES( :ParamID, :ParamGLineNo, :ParamDeviceType, :ParamGIndex, :ParamName, :ParamComment, :ParamBroadcast, :ParamComPortID, :ParamPKUID, :ParamPriority, :ParamDeviceVersion, :ParamIdContactName, :ParamIdDevice )
+
+12.09.2018 10:16:13  Param 0 (qrRSLineID)= 425
+12.09.2018 10:16:13  Param 1 (qrRSLineLineNo)= 2
+12.09.2018 10:16:13  Param 2 (qrRSLineDeviceType)= 9
+12.09.2018 10:16:13  Param 3 (qrRSLineGIndex)= 2
+12.09.2018 10:16:13  Param 4 (qrRSLineName)= С2000-КДЛ (2)
+12.09.2018 10:16:13  Param 5 (qrRSLineComment)= 
+12.09.2018 10:16:13  Param 6 (qrRSLineBroadcast)= 
+12.09.2018 10:16:13  Param 7 (qrRSLineComPortID)= 25
+12.09.2018 10:16:13  Param 8 (qrRSLinePKUID)= 0
+12.09.2018 10:16:13  Param 9 (qrRSLinePriority)= 0
+12.09.2018 10:16:13  Param 10 (qrRSLineDeviceVersion)= 0
+12.09.2018 10:16:13  Param 11 (qrRSLineIdContactName)= 
+12.09.2018 10:16:13  Param 12 (qrRSLineIdDevice)= 0
+12.09.2018 10:18:27  
+
+
+12.09.2018 10:18:27  insert table=RSLines
+12.09.2018 10:18:27  
+
+INSERT INTO RSLines ( ID, GLineNo, DeviceType, GIndex, Name, Comment, Broadcast, ComPortID, PKUID, Priority, DeviceVersion, IdContactName, IdDevice ) VALUES( :ParamID, :ParamGLineNo, :ParamDeviceType, :ParamGIndex, :ParamName, :ParamComment, :ParamBroadcast, :ParamComPortID, :ParamPKUID, :ParamPriority, :ParamDeviceVersion, :ParamIdContactName, :ParamIdDevice )
+
+12.09.2018 10:18:27  Param 0 (qrRSLineID)= 426
+12.09.2018 10:18:27  Param 1 (qrRSLineLineNo)= 1
+12.09.2018 10:18:27  Param 2 (qrRSLineDeviceType)= 0
+12.09.2018 10:18:27  Param 3 (qrRSLineGIndex)= 2
+12.09.2018 10:18:27  Param 4 (qrRSLineName)= С2000 (1)
+12.09.2018 10:18:27  Param 5 (qrRSLineComment)= 
+12.09.2018 10:18:27  Param 6 (qrRSLineBroadcast)= 
+12.09.2018 10:18:27  Param 7 (qrRSLineComPortID)= 25
+12.09.2018 10:18:27  Param 8 (qrRSLinePKUID)= 0
+12.09.2018 10:18:27  Param 9 (qrRSLinePriority)= 0
+12.09.2018 10:18:27  Param 10 (qrRSLineDeviceVersion)= 0
+12.09.2018 10:18:27  Param 11 (qrRSLineIdContactName)= 
+12.09.2018 10:18:27  Param 12 (qrRSLineIdDevice)= 0
+12.09.2018 10:43:59  выделенная запись psw: id=91 (Аденин А. А.)
+12.09.2018 10:43:59  выделенная запись psw: id=91 (Аденин А. А.)
+12.09.2018 10:43:59  выделенная запись psw: id=91 (Аденин А. А.)
+12.09.2018 10:43:59  выделенная запись psw: id=91 (Аденин А. А.)
+17.09.2018 15:10:02  
+
+UPDATE DevItems SET  ComputerID=:ParamComputerID, DeviceID=:ParamDeviceID, Address=:ParamAddress, GIndex=:ParamGIndex, GType=:ParamGType, ItemType=:ParamItemType, State=:ParamState, Command=:ParamCommand, TimeOutControl=:ParamTimeOutControl, TimeOutConfig=:ParamTimeOutConfig, Config=:ParamConfig, Flags=:ParamFlags, Name=:ParamName, Comment=:ParamComment, IndexForContactId=:ParamIndexForContactId WHERE ID=:ParamID
+
+17.09.2018 15:10:02  Param 0 (qrDeviceItemComputerID)= 9
+17.09.2018 15:10:02  Param 1 (qrDeviceItemDeviceID)= 431
+17.09.2018 15:10:02  Param 2 (qrDeviceItemAddress)= 635
+17.09.2018 15:10:02  Param 3 (qrDeviceItemGIndex)= 22131
+17.09.2018 15:10:02  Param 4 (qrDeviceItemGType)= 0
+17.09.2018 15:10:02  Param 5 (qrDeviceItemItemType)= 9
+17.09.2018 15:10:02  Param 6 (qrDeviceItemState)= 0
+17.09.2018 15:10:02  Param 7 (qrDeviceItemCommand)= 0
+17.09.2018 15:10:02  Param 8 (qrDeviceItemTimeOutControl)= 0
+17.09.2018 15:10:02  Param 9 (qrDeviceItemTimeOutConfig)= 0
+17.09.2018 15:10:02  Param 10 (qrDeviceItemConfig)= 0
+17.09.2018 15:10:02  Param 11 (qrDeviceItemFlags)= 
+17.09.2018 15:10:02  Param 12 (qrDeviceItemName)= ШС 123, Прибор 2
+17.09.2018 15:10:02  Param 13 (qrDeviceItemComment)= 
+17.09.2018 15:10:02  Param 14 (qrDeviceItemIndexForContactId)= 0
+17.09.2018 15:10:02  Param 15 (qrDeviceItemID)= 22131
+21.09.2018 11:50:45  
+
+
+21.09.2018 11:50:45  insert table=Comps
+21.09.2018 11:50:45  
+
+INSERT INTO Comps ( ID, Name, TCP_IP, GType, GIndex, IpReservSrv ) VALUES( :ParamID, :ParamName, :ParamTCP_IP, :ParamGType, :ParamGIndex, :ParamIpReservSrv )
+
+21.09.2018 11:50:45  Param 0 (qrComputersID)= 11
+21.09.2018 11:50:45  Param 1 (qrComputersName)= фЫфыФЫ
+21.09.2018 11:50:45  Param 2 (qrComputersTCP_IP)= 192.168.1.1
+21.09.2018 11:50:45  Param 3 (qrComputersGType)= 0
+21.09.2018 11:50:45  Param 4 (qrComputersGIndex)= 11
+21.09.2018 11:50:45  Param 5 (qrComputersIpReservSrv)= 
+21.09.2018 11:50:45  
+
+
+21.09.2018 11:50:45  insert table=SysParam
+21.09.2018 11:50:45  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:45  Param 0 (qrParamNum)= 96
+21.09.2018 11:50:45  Param 1 (qrParamID)= 3
+21.09.2018 11:50:45  Param 2 (qrParamName)= 
+21.09.2018 11:50:45  Param 3 (qrParamType)= 2
+21.09.2018 11:50:45  Param 4 (qrParamValue)= 0
+21.09.2018 11:50:45  Param 5 (qrParamComment)= 
+21.09.2018 11:50:45  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:45  Param 7 (qrParamRequired)= 1
+21.09.2018 11:50:45  
+
+
+21.09.2018 11:50:45  insert table=SysParam
+21.09.2018 11:50:45  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:45  Param 0 (qrParamNum)= 97
+21.09.2018 11:50:45  Param 1 (qrParamID)= 90
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 2
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 0
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 1
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 98
+21.09.2018 11:50:46  Param 1 (qrParamID)= 1007
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 2
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 1
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 1
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 99
+21.09.2018 11:50:46  Param 1 (qrParamID)= 29
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 2
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 1
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 0
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 100
+21.09.2018 11:50:46  Param 1 (qrParamID)= 61
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 3
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 60
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 0
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 101
+21.09.2018 11:50:46  Param 1 (qrParamID)= 65
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 2
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 1
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 1
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 102
+21.09.2018 11:50:46  Param 1 (qrParamID)= 66
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 3
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 3
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 1
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 103
+21.09.2018 11:50:46  Param 1 (qrParamID)= 67
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 3
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 1
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 1
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 104
+21.09.2018 11:50:46  Param 1 (qrParamID)= 1004
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 1
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 1
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 1
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 105
+21.09.2018 11:50:46  Param 1 (qrParamID)= 70
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 3
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 7
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 0
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 106
+21.09.2018 11:50:46  Param 1 (qrParamID)= 1000
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 2
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 1
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 0
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 107
+21.09.2018 11:50:46  Param 1 (qrParamID)= 1001
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 3
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 1000
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 0
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 108
+21.09.2018 11:50:46  Param 1 (qrParamID)= 1002
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 3
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 5
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 0
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 109
+21.09.2018 11:50:46  Param 1 (qrParamID)= 101
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 2
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 1
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 1
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 110
+21.09.2018 11:50:46  Param 1 (qrParamID)= 102
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 3
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 10
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 0
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 111
+21.09.2018 11:50:46  Param 1 (qrParamID)= 103
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 3
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 10
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 0
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 112
+21.09.2018 11:50:46  Param 1 (qrParamID)= 1003
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 2
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 1
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 0
+21.09.2018 11:50:46  
+
+
+21.09.2018 11:50:46  insert table=SysParam
+21.09.2018 11:50:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+21.09.2018 11:50:46  Param 0 (qrParamNum)= 113
+21.09.2018 11:50:46  Param 1 (qrParamID)= 1008
+21.09.2018 11:50:46  Param 2 (qrParamName)= 
+21.09.2018 11:50:46  Param 3 (qrParamType)= 2
+21.09.2018 11:50:46  Param 4 (qrParamValue)= 1
+21.09.2018 11:50:46  Param 5 (qrParamComment)= 
+21.09.2018 11:50:46  Param 6 (qrParamComputerID)= 11
+21.09.2018 11:50:46  Param 7 (qrParamRequired)= 0
+21.09.2018 11:50:57  
+
+UPDATE Comps SET  Name=:ParamName, TCP_IP=:ParamTCP_IP, GType=:ParamGType, GIndex=:ParamGIndex, IpReservSrv=:ParamIpReservSrv WHERE ID=:ParamID
+
+21.09.2018 11:50:57  Param 0 (qrComputersName)= фЫфыФЫ
+21.09.2018 11:50:57  Param 1 (qrComputersTCP_IP)= 192.168.1.1
+21.09.2018 11:50:57  Param 2 (qrComputersGType)= 0
+21.09.2018 11:50:57  Param 3 (qrComputersGIndex)= 11
+21.09.2018 11:50:57  Param 4 (qrComputersIpReservSrv)= 
+21.09.2018 11:50:57  Param 5 (qrComputersID)= 11
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 3
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 2
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 0
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 1
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 96
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 90
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 2
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 0
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 1
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 97
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 1007
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 2
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 1
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 1
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 98
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 29
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 2
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 1
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 0
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 99
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 61
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 3
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 60
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 0
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 100
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 65
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 2
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 1
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 1
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 101
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 66
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 3
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 3
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 1
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 102
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 67
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 3
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 1
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 1
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 103
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 1004
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 1
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 1
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 1
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 104
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 70
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 3
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 7
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 0
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 105
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 1000
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 2
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 0
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 0
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 106
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 1001
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 3
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 1000
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 0
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 107
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 1002
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 3
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 5
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 0
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 108
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 101
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 2
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 1
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 1
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 109
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 102
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 3
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 10
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 0
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 110
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 103
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 3
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 10
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 0
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 111
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 1003
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 2
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 1
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 0
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 112
+21.09.2018 11:50:57  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+21.09.2018 11:50:57  Param 0 (qrParamID)= 1008
+21.09.2018 11:50:57  Param 1 (qrParamName)= 
+21.09.2018 11:50:57  Param 2 (qrParamType)= 2
+21.09.2018 11:50:57  Param 3 (qrParamValue)= 1
+21.09.2018 11:50:57  Param 4 (qrParamComment)= 
+21.09.2018 11:50:57  Param 5 (qrParamComputerID)= 11
+21.09.2018 11:50:57  Param 6 (qrParamRequired)= 0
+21.09.2018 11:50:57  Param 7 (qrParamNum)= 113
+25.10.2018 14:00:33  выделенная запись person: id=90 (Аденин А. А.)
+25.10.2018 14:00:34  выделенная запись person: id=4 (Администратор А.)
+25.10.2018 14:00:34  выделенная запись person: id=14 (Ананьев А. Б.)
+25.10.2018 14:00:34  выделенная запись person: id=83 (Ануфриев А. А.)
+25.10.2018 14:00:34  выделенная запись person: id=120 (Астахов С. С.)
+25.10.2018 14:00:34  выделенная запись person: id=62 (Баранов А. А.)
+25.10.2018 14:00:34  выделенная запись person: id=120 (Астахов С. С.)
+25.10.2018 14:00:35  выделенная запись person: id=83 (Ануфриев А. А.)
+25.10.2018 14:00:35  выделенная запись person: id=14 (Ананьев А. Б.)
+25.10.2018 14:00:35  выделенная запись person: id=4 (Администратор А.)
+25.10.2018 14:00:35  выделенная запись person: id=90 (Аденин А. А.)
+25.10.2018 14:00:35  выделенная запись person: id=90 (Аденин А. А.)
+25.10.2018 14:00:36  выделенная запись person: id=4 (Администратор А.)
+25.10.2018 14:00:36  выделенная запись person: id=14 (Ананьев А. Б.)
+25.10.2018 14:00:36  выделенная запись person: id=83 (Ануфриев А. А.)
+25.10.2018 14:00:36  выделенная запись person: id=120 (Астахов С. С.)
+25.10.2018 14:00:36  выделенная запись person: id=62 (Баранов А. А.)
+25.10.2018 14:00:36  выделенная запись person: id=113 (Блинов О. Д.)
+25.10.2018 14:00:37  выделенная запись person: id=74 (Богомолов П. А.)
+25.10.2018 14:00:37  выделенная запись person: id=113 (Блинов О. Д.)
+25.10.2018 14:00:37  выделенная запись person: id=62 (Баранов А. А.)
+25.10.2018 14:00:37  выделенная запись person: id=120 (Астахов С. С.)
+25.10.2018 14:00:37  выделенная запись person: id=83 (Ануфриев А. А.)
+25.10.2018 14:00:37  выделенная запись person: id=14 (Ананьев А. Б.)
+25.10.2018 14:00:37  выделенная запись person: id=4 (Администратор А.)
+25.10.2018 14:00:37  выделенная запись person: id=90 (Аденин А. А.)
+25.10.2018 14:00:37  выделенная запись person: id=90 (Аденин А. А.)
+25.10.2018 14:00:40  AppendPersons
+25.10.2018 14:01:11  SavePersons
+25.10.2018 14:01:11  SavePerson
+25.10.2018 14:01:11  Error==frmMain.state=0
+25.10.2018 14:01:11  
+
+
+25.10.2018 14:01:11  insert table=pList
+25.10.2018 14:01:11  
+
+INSERT INTO pList ( ID, Picture, TabNumber, Name, FirstName, MidName, Company, Section, Post, Status, Schedule, Address, BirthDate, Avto, WorkPhone, HomePhone, Spack, ChangeTime, GrStatus, IndexForContactId ) VALUES( :ParamID, :ParamPicture, :ParamTabNumber, :ParamName, :ParamFirstName, :ParamMidName, :ParamCompany, :ParamSection, :ParamPost, :ParamStatus, :ParamSchedule, :ParamAddress, :ParamBirthDate, :ParamAvto, :ParamWorkPhone, :ParamHomePhone, :ParamSpack, :ParamChangeTime, :ParamGrStatus, :ParamIndexForContactId )
+
+25.10.2018 14:01:11  Param 0 (qrPersonID)= 141
+25.10.2018 14:01:11  Param 2 (qrPersonTabNumber)= 1212
+25.10.2018 14:01:11  Param 3 (qrPersonName)= Титов
+25.10.2018 14:01:11  Param 4 (qrPersonFirstName)= Дмитрий
+25.10.2018 14:01:11  Param 5 (qrPersonMidName)= Сергеевич
+25.10.2018 14:01:11  Param 6 (qrPersonCompany)= 
+25.10.2018 14:01:11  Param 7 (qrPersonSection)= 0
+25.10.2018 14:01:11  Param 8 (qrPersonPost)= 
+25.10.2018 14:01:11  Param 9 (qrPersonStatus)= 1
+25.10.2018 14:01:11  Param 10 (qrPersonSchedule)= 
+25.10.2018 14:01:11  Param 11 (qrPersonAddress)= 
+25.10.2018 14:01:11  Param 12 (qrPersonBirthDate)= 30.12.1899
+25.10.2018 14:01:11  Param 13 (qrPersonAvto)= 
+25.10.2018 14:01:11  Param 14 (qrPersonWorkPhone)= 
+25.10.2018 14:01:11  Param 15 (qrPersonHomePhone)= 
+25.10.2018 14:01:11  Param 16 (qrPersonSpack)= 0
+25.10.2018 14:01:11  Param 17 (qrPersonChangeTime)= 25.10.2018 14:01:11
+25.10.2018 14:01:11  Param 18 (qrPersonGrStatus)= 0
+25.10.2018 14:01:11  Param 19 (qrPersonIndexForContactId)= 0
+25.10.2018 14:01:11  выделенная запись person: id=141 (Титов Д. С.)
+25.10.2018 14:01:11  выделенная запись person: id=141 (Титов Д. С.)
+25.10.2018 14:01:15  выделенная запись person: id=141 (Титов Д. С.)
+25.10.2018 14:01:18  EditPersons
+25.10.2018 14:01:19  SavePersons
+25.10.2018 14:01:19  SavePerson
+25.10.2018 14:01:19  Error==frmMain.state=1
+25.10.2018 14:01:19  
+
+UPDATE pList SET  Picture=:ParamPicture, TabNumber=:ParamTabNumber, Name=:ParamName, FirstName=:ParamFirstName, MidName=:ParamMidName, Company=:ParamCompany, Section=:ParamSection, Post=:ParamPost, Status=:ParamStatus, Schedule=:ParamSchedule, Address=:ParamAddress, BirthDate=:ParamBirthDate, Avto=:ParamAvto, WorkPhone=:ParamWorkPhone, HomePhone=:ParamHomePhone, Spack=:ParamSpack, ChangeTime=:ParamChangeTime, GrStatus=:ParamGrStatus, IndexForContactId=:ParamIndexForContactId WHERE ID=:ParamID
+
+25.10.2018 14:01:19  Param 1 (qrPersonTabNumber)= 1212
+25.10.2018 14:01:19  Param 2 (qrPersonName)= Титов
+25.10.2018 14:01:19  Param 3 (qrPersonFirstName)= Дмитрий
+25.10.2018 14:01:19  Param 4 (qrPersonMidName)= Сергеевич
+25.10.2018 14:01:19  Param 5 (qrPersonCompany)= 0
+25.10.2018 14:01:19  Param 6 (qrPersonSection)= 0
+25.10.2018 14:01:19  Param 7 (qrPersonPost)= 0
+25.10.2018 14:01:19  Param 8 (qrPersonStatus)= 1
+25.10.2018 14:01:19  Param 9 (qrPersonSchedule)= 0
+25.10.2018 14:01:19  Param 10 (qrPersonAddress)= 
+25.10.2018 14:01:19  Param 11 (qrPersonBirthDate)= 30.12.1899
+25.10.2018 14:01:19  Param 12 (qrPersonAvto)= 
+25.10.2018 14:01:19  Param 13 (qrPersonWorkPhone)= 
+25.10.2018 14:01:19  Param 14 (qrPersonHomePhone)= 
+25.10.2018 14:01:19  Param 15 (qrPersonSpack)= 0
+25.10.2018 14:01:19  Param 16 (qrPersonChangeTime)= 25.10.2018 14:01:19
+25.10.2018 14:01:19  Param 17 (qrPersonGrStatus)= 0
+25.10.2018 14:01:19  Param 18 (qrPersonIndexForContactId)= 0
+25.10.2018 14:01:19  Param 19 (qrPersonID)= 141
+25.10.2018 14:01:19  выделенная запись person: id=141 (Титов Д. С.)
+25.10.2018 14:01:19  выделенная запись person: id=141 (Титов Д. С.)
+25.10.2018 14:06:21  
+
+
+25.10.2018 14:06:21  insert table=Schedule
+25.10.2018 14:06:21  
+
+INSERT INTO Schedule ( ID, ScriptID, TimeID ) VALUES( :ParamID, :ParamScriptID, :ParamTimeID )
+
+25.10.2018 14:06:21  Param 0 (qrScheduleID)= 3
+25.10.2018 14:06:21  Param 1 (qrScheduleScriptID)= 
+25.10.2018 14:06:21  Param 2 (qrScheduleTimeID)= 
+25.10.2018 14:06:38  
+
+UPDATE Schedule SET  ScriptID=:ParamScriptID, TimeID=:ParamTimeID WHERE ID=:ParamID
+
+25.10.2018 14:06:38  Param 0 (qrScheduleScriptID)= 15
+25.10.2018 14:06:38  Param 1 (qrScheduleTimeID)= 
+25.10.2018 14:06:38  Param 2 (qrScheduleID)= 3
+25.10.2018 14:06:42  
+
+UPDATE Schedule SET  ScriptID=:ParamScriptID, TimeID=:ParamTimeID WHERE ID=:ParamID
+
+25.10.2018 14:06:42  Param 0 (qrScheduleScriptID)= 15
+25.10.2018 14:06:42  Param 1 (qrScheduleTimeID)= 0
+25.10.2018 14:06:42  Param 2 (qrScheduleID)= 3
+25.10.2018 14:06:46  
+
+UPDATE Schedule SET  ScriptID=:ParamScriptID, TimeID=:ParamTimeID WHERE ID=:ParamID
+
+25.10.2018 14:06:46  Param 0 (qrScheduleScriptID)= 15
+25.10.2018 14:06:46  Param 1 (qrScheduleTimeID)= 0
+25.10.2018 14:06:46  Param 2 (qrScheduleID)= 3
+25.10.2018 14:07:07  выделенная запись person: id=90 (Аденин А. А.)
+25.10.2018 14:08:04  
+
+
+25.10.2018 14:08:04  insert table=AcessPoint
+25.10.2018 14:08:04  
+
+INSERT INTO AcessPoint ( ID, Name, Comment, GIndex, GType, InKeyID, InCommand, InDuration, OutKeyID, OutDuration, OutCommand, Config, Mode, IndexZone1, IndexZone2, ComputerID, WorkTimeZone1, WorkTimeZone2 ) VALUES( :ParamID, :ParamName, :ParamComment, :ParamGIndex, :ParamGType, :ParamInKeyID, :ParamInCommand, :ParamInDuration, :ParamOutKeyID, :ParamOutDuration, :ParamOutCommand, :ParamConfig, :ParamMode, :ParamIndexZone1, :ParamIndexZone2, :ParamComputerID, :ParamWorkTimeZone1, :ParamWorkTimeZone2 )
+
+25.10.2018 14:08:04  Param 0 (qrDoorID)= 1
+25.10.2018 14:08:04  Param 1 (qrDoorName)= Дверь 1
+25.10.2018 14:08:04  Param 2 (qrDoorComment)= 
+25.10.2018 14:08:04  Param 3 (qrDoorGIndex)= 1
+25.10.2018 14:08:04  Param 4 (qrDoorGType)= 1
+25.10.2018 14:08:04  Param 5 (qrDoorInKeyID)= 22141
+25.10.2018 14:08:04  Param 6 (qrDoorInCommand)= 3
+25.10.2018 14:08:04  Param 7 (qrDoorInDuration)= 5
+25.10.2018 14:08:04  Param 8 (qrDoorOutKeyID)= -1
+25.10.2018 14:08:04  Param 9 (qrDoorOutDuration)= 5
+25.10.2018 14:08:04  Param 10 (qrDoorOutCommand)= 3
+25.10.2018 14:08:04  Param 11 (qrDoorConfig)= 0
+25.10.2018 14:08:04  Param 12 (qrDoorMode)= 1
+25.10.2018 14:08:04  Param 13 (qrDoorIndexZone1)= 0
+25.10.2018 14:08:04  Param 14 (qrDoorIndexZone2)= 0
+25.10.2018 14:08:04  Param 15 (qrDoorComputerID)= 9
+25.10.2018 14:08:04  Param 16 (qrDoorWorkTimeZone1)= 
+25.10.2018 14:08:04  Param 17 (qrDoorWorkTimeZone2)= 
+25.10.2018 14:08:04  
+
+
+25.10.2018 14:08:04  insert table=RdrAccessPoint
+25.10.2018 14:08:04  
+
+INSERT INTO RdrAccessPoint ( ID, ReaderID, Mode, AccessPointID, ModeAcess ) VALUES( :ParamID, :ParamReaderID, :ParamMode, :ParamAccessPointID, :ParamModeAcess )
+
+25.10.2018 14:08:04  Param 0 (qrRdrAccessPointsID)= 260
+25.10.2018 14:08:04  Param 1 (qrRdrAccessPointsReaderID)= 22137
+25.10.2018 14:08:04  Param 2 (qrRdrAccessPointsMode)= 12
+25.10.2018 14:08:04  Param 3 (qrRdrAccessPointsAccessPointID)= 1
+25.10.2018 14:08:04  Param 4 (qrRdrAccessPointsModeAcess)= 1
+25.10.2018 14:08:13  
+
+
+25.10.2018 14:08:13  insert table=AcessPoint
+25.10.2018 14:08:13  
+
+INSERT INTO AcessPoint ( ID, Name, Comment, GIndex, GType, InKeyID, InCommand, InDuration, OutKeyID, OutDuration, OutCommand, Config, Mode, IndexZone1, IndexZone2, ComputerID, WorkTimeZone1, WorkTimeZone2 ) VALUES( :ParamID, :ParamName, :ParamComment, :ParamGIndex, :ParamGType, :ParamInKeyID, :ParamInCommand, :ParamInDuration, :ParamOutKeyID, :ParamOutDuration, :ParamOutCommand, :ParamConfig, :ParamMode, :ParamIndexZone1, :ParamIndexZone2, :ParamComputerID, :ParamWorkTimeZone1, :ParamWorkTimeZone2 )
+
+25.10.2018 14:08:13  Param 0 (qrDoorID)= 2
+25.10.2018 14:08:13  Param 1 (qrDoorName)= Дверь 2
+25.10.2018 14:08:13  Param 2 (qrDoorComment)= 
+25.10.2018 14:08:13  Param 3 (qrDoorGIndex)= 2
+25.10.2018 14:08:13  Param 4 (qrDoorGType)= 1
+25.10.2018 14:08:13  Param 5 (qrDoorInKeyID)= 22142
+25.10.2018 14:08:13  Param 6 (qrDoorInCommand)= 3
+25.10.2018 14:08:13  Param 7 (qrDoorInDuration)= 5
+25.10.2018 14:08:13  Param 8 (qrDoorOutKeyID)= -1
+25.10.2018 14:08:13  Param 9 (qrDoorOutDuration)= 5
+25.10.2018 14:08:13  Param 10 (qrDoorOutCommand)= 3
+25.10.2018 14:08:13  Param 11 (qrDoorConfig)= 0
+25.10.2018 14:08:13  Param 12 (qrDoorMode)= 1
+25.10.2018 14:08:13  Param 13 (qrDoorIndexZone1)= 0
+25.10.2018 14:08:13  Param 14 (qrDoorIndexZone2)= 0
+25.10.2018 14:08:13  Param 15 (qrDoorComputerID)= 9
+25.10.2018 14:08:13  Param 16 (qrDoorWorkTimeZone1)= 
+25.10.2018 14:08:13  Param 17 (qrDoorWorkTimeZone2)= 
+25.10.2018 14:08:13  
+
+
+25.10.2018 14:08:13  insert table=RdrAccessPoint
+25.10.2018 14:08:13  
+
+INSERT INTO RdrAccessPoint ( ID, ReaderID, Mode, AccessPointID, ModeAcess ) VALUES( :ParamID, :ParamReaderID, :ParamMode, :ParamAccessPointID, :ParamModeAcess )
+
+25.10.2018 14:08:13  Param 0 (qrRdrAccessPointsID)= 261
+25.10.2018 14:08:13  Param 1 (qrRdrAccessPointsReaderID)= 22138
+25.10.2018 14:08:13  Param 2 (qrRdrAccessPointsMode)= 12
+25.10.2018 14:08:13  Param 3 (qrRdrAccessPointsAccessPointID)= 2
+25.10.2018 14:08:13  Param 4 (qrRdrAccessPointsModeAcess)= 1
+25.10.2018 14:10:24  
+
+
+25.10.2018 14:10:24  insert table=TreeCtrl
+25.10.2018 14:10:24  
+
+INSERT INTO TreeCtrl ( ID, AbsoluteIndex, GLevel, Text ) VALUES( :ParamID, :ParamAbsoluteIndex, :ParamGLevel, :ParamText )
+
+25.10.2018 14:10:24  Param 0 (qrTreeID)= 1
+25.10.2018 14:10:24  Param 1 (qrTreeAbsoluteIndex)= 0
+25.10.2018 14:10:24  Param 2 (qrTreeGLevel)= 0
+25.10.2018 14:10:24  Param 3 (qrTreeText)= Элементы управления
+25.10.2018 14:10:24  
+
+
+25.10.2018 14:10:24  insert table=TreeCtrl
+25.10.2018 14:10:24  
+
+INSERT INTO TreeCtrl ( ID, AbsoluteIndex, GLevel, Text ) VALUES( :ParamID, :ParamAbsoluteIndex, :ParamGLevel, :ParamText )
+
+25.10.2018 14:10:24  Param 0 (qrTreeID)= 2
+25.10.2018 14:10:24  Param 1 (qrTreeAbsoluteIndex)= 1
+25.10.2018 14:10:24  Param 2 (qrTreeGLevel)= 1
+25.10.2018 14:10:24  Param 3 (qrTreeText)= 01
+25.10.2018 14:10:24  
+
+
+25.10.2018 14:10:24  insert table=TreeNode
+25.10.2018 14:10:24  
+
+INSERT INTO TreeNode ( Num, ID, Comment, Icon, Special ) VALUES( :ParamNum, :ParamID, :ParamComment, :ParamIcon, :ParamSpecial )
+
+25.10.2018 14:10:24  Param 0 (qrTreeNodeNum)= 1
+25.10.2018 14:10:24  Param 1 (qrTreeNodeID)= 0
+25.10.2018 14:10:24  Param 2 (qrTreeNodeComment)= Элементы управления
+25.10.2018 14:10:24  Param 3 (qrTreeNodeIcon)= 0
+25.10.2018 14:10:24  Param 4 (qrTreeNodeSpecial)= 0
+25.10.2018 14:10:24  
+
+
+25.10.2018 14:10:24  insert table=TreeNode
+25.10.2018 14:10:24  
+
+INSERT INTO TreeNode ( Num, ID, Comment, Icon, Special ) VALUES( :ParamNum, :ParamID, :ParamComment, :ParamIcon, :ParamSpecial )
+
+25.10.2018 14:10:24  Param 0 (qrTreeNodeNum)= 2
+25.10.2018 14:10:24  Param 1 (qrTreeNodeID)= 1
+25.10.2018 14:10:24  Param 2 (qrTreeNodeComment)= 01
+25.10.2018 14:10:24  Param 3 (qrTreeNodeIcon)= 2
+25.10.2018 14:10:24  Param 4 (qrTreeNodeSpecial)= 0
+25.10.2018 14:17:23  
+
+UPDATE RSLines SET  GLineNo=:ParamGLineNo, DeviceType=:ParamDeviceType, GIndex=:ParamGIndex, Name=:ParamName, Comment=:ParamComment, Broadcast=:ParamBroadcast, ComPortID=:ParamComPortID, PKUID=:ParamPKUID, Priority=:ParamPriority, DeviceVersion=:ParamDeviceVersion, IdContactName=:ParamIdContactName, IdDevice=:ParamIdDevice WHERE ID=:ParamID
+
+25.10.2018 14:17:23  Param 0 (qrRSLineLineNo)= 9
+25.10.2018 14:17:23  Param 1 (qrRSLineDeviceType)= 0
+25.10.2018 14:17:23  Param 2 (qrRSLineGIndex)= 375
+25.10.2018 14:17:23  Param 3 (qrRSLineName)= С2000 (9)
+25.10.2018 14:17:23  Param 4 (qrRSLineComment)= 
+25.10.2018 14:17:23  Param 5 (qrRSLineBroadcast)= 
+25.10.2018 14:17:23  Param 6 (qrRSLineComPortID)= 25
+25.10.2018 14:17:23  Param 7 (qrRSLinePKUID)= 0
+25.10.2018 14:17:23  Param 8 (qrRSLinePriority)= 0
+25.10.2018 14:17:23  Param 9 (qrRSLineDeviceVersion)= 0
+25.10.2018 14:17:23  Param 10 (qrRSLineIdContactName)= 
+25.10.2018 14:17:23  Param 11 (qrRSLineIdDevice)= 0
+25.10.2018 14:17:23  Param 12 (qrRSLineID)= 430
+25.10.2018 14:17:57  
+
+
+25.10.2018 14:17:57  insert table=GTime
+25.10.2018 14:17:57  
+
+INSERT INTO GTime ( ID, Comment, Name, Calendar, TimeWinType ) VALUES( :ParamID, :ParamComment, :ParamName, :ParamCalendar, :ParamTimeWinType )
+
+25.10.2018 14:17:57  Param 0 (qrTimeID)= 4
+25.10.2018 14:17:57  Param 1 (qrTimeComment)= 
+25.10.2018 14:17:57  Param 2 (qrTimeName)= 
+25.10.2018 14:17:57  Param 4 (qrTimeTimeWinType)= 0
+25.10.2018 14:18:18  
+
+UPDATE TimeCont SET  TimeID=:ParamTimeID, Num=:ParamNum, Days=:ParamDays, Start=:ParamStart, Finish=:ParamFinish WHERE ID=:ParamID
+
+25.10.2018 14:18:18  Param 0 (qrTimeContTimeID)= 4
+25.10.2018 14:18:18  Param 1 (qrTimeContNum)= 1
+25.10.2018 14:18:18  Param 2 (qrTimeContDays)= -2147483617
+25.10.2018 14:18:18  Param 3 (qrTimeContStart)= 30.12.1899
+25.10.2018 14:18:18  Param 4 (qrTimeContFinish)= 30.12.1899 23:59:59
+25.10.2018 14:18:18  Param 5 (qrTimeContID)= 4
+25.10.2018 14:18:18  
+
+UPDATE TimeCont SET  TimeID=:ParamTimeID, Num=:ParamNum, Days=:ParamDays, Start=:ParamStart, Finish=:ParamFinish WHERE ID=:ParamID
+
+25.10.2018 14:18:18  Param 0 (qrTimeContTimeID)= 4
+25.10.2018 14:18:18  Param 1 (qrTimeContNum)= 1
+25.10.2018 14:18:18  Param 2 (qrTimeContDays)= -1073741793
+25.10.2018 14:18:18  Param 3 (qrTimeContStart)= 30.12.1899
+25.10.2018 14:18:18  Param 4 (qrTimeContFinish)= 30.12.1899 23:59:59
+25.10.2018 14:18:18  Param 5 (qrTimeContID)= 4
+25.10.2018 14:18:19  
+
+UPDATE TimeCont SET  TimeID=:ParamTimeID, Num=:ParamNum, Days=:ParamDays, Start=:ParamStart, Finish=:ParamFinish WHERE ID=:ParamID
+
+25.10.2018 14:18:19  Param 0 (qrTimeContTimeID)= 4
+25.10.2018 14:18:19  Param 1 (qrTimeContNum)= 1
+25.10.2018 14:18:19  Param 2 (qrTimeContDays)= -1073741761
+25.10.2018 14:18:19  Param 3 (qrTimeContStart)= 30.12.1899
+25.10.2018 14:18:19  Param 4 (qrTimeContFinish)= 30.12.1899 23:59:59
+25.10.2018 14:18:19  Param 5 (qrTimeContID)= 4
+25.10.2018 14:18:20  
+
+UPDATE TimeCont SET  TimeID=:ParamTimeID, Num=:ParamNum, Days=:ParamDays, Start=:ParamStart, Finish=:ParamFinish WHERE ID=:ParamID
+
+25.10.2018 14:18:20  Param 0 (qrTimeContTimeID)= 4
+25.10.2018 14:18:20  Param 1 (qrTimeContNum)= 1
+25.10.2018 14:18:20  Param 2 (qrTimeContDays)= -1073741697
+25.10.2018 14:18:20  Param 3 (qrTimeContStart)= 30.12.1899
+25.10.2018 14:18:20  Param 4 (qrTimeContFinish)= 30.12.1899 23:59:59
+25.10.2018 14:18:20  Param 5 (qrTimeContID)= 4
+25.10.2018 14:18:20  
+
+UPDATE TimeCont SET  TimeID=:ParamTimeID, Num=:ParamNum, Days=:ParamDays, Start=:ParamStart, Finish=:ParamFinish WHERE ID=:ParamID
+
+25.10.2018 14:18:20  Param 0 (qrTimeContTimeID)= 4
+25.10.2018 14:18:20  Param 1 (qrTimeContNum)= 1
+25.10.2018 14:18:20  Param 2 (qrTimeContDays)= -1073741569
+25.10.2018 14:18:20  Param 3 (qrTimeContStart)= 30.12.1899
+25.10.2018 14:18:20  Param 4 (qrTimeContFinish)= 30.12.1899 23:59:59
+25.10.2018 14:18:20  Param 5 (qrTimeContID)= 4
+25.10.2018 14:18:20  
+
+UPDATE TimeCont SET  TimeID=:ParamTimeID, Num=:ParamNum, Days=:ParamDays, Start=:ParamStart, Finish=:ParamFinish WHERE ID=:ParamID
+
+25.10.2018 14:18:20  Param 0 (qrTimeContTimeID)= 4
+25.10.2018 14:18:20  Param 1 (qrTimeContNum)= 1
+25.10.2018 14:18:20  Param 2 (qrTimeContDays)= -1073741313
+25.10.2018 14:18:20  Param 3 (qrTimeContStart)= 30.12.1899
+25.10.2018 14:18:20  Param 4 (qrTimeContFinish)= 30.12.1899 23:59:59
+25.10.2018 14:18:20  Param 5 (qrTimeContID)= 4
+25.10.2018 14:18:21  
+
+UPDATE TimeCont SET  TimeID=:ParamTimeID, Num=:ParamNum, Days=:ParamDays, Start=:ParamStart, Finish=:ParamFinish WHERE ID=:ParamID
+
+25.10.2018 14:18:21  Param 0 (qrTimeContTimeID)= 4
+25.10.2018 14:18:21  Param 1 (qrTimeContNum)= 1
+25.10.2018 14:18:21  Param 2 (qrTimeContDays)= -1073740801
+25.10.2018 14:18:21  Param 3 (qrTimeContStart)= 30.12.1899
+25.10.2018 14:18:21  Param 4 (qrTimeContFinish)= 30.12.1899 23:59:59
+25.10.2018 14:18:21  Param 5 (qrTimeContID)= 4
+25.10.2018 14:18:21  
+
+UPDATE TimeCont SET  TimeID=:ParamTimeID, Num=:ParamNum, Days=:ParamDays, Start=:ParamStart, Finish=:ParamFinish WHERE ID=:ParamID
+
+25.10.2018 14:18:21  Param 0 (qrTimeContTimeID)= 4
+25.10.2018 14:18:21  Param 1 (qrTimeContNum)= 1
+25.10.2018 14:18:21  Param 2 (qrTimeContDays)= -1073739777
+25.10.2018 14:18:21  Param 3 (qrTimeContStart)= 30.12.1899
+25.10.2018 14:18:21  Param 4 (qrTimeContFinish)= 30.12.1899 23:59:59
+25.10.2018 14:18:21  Param 5 (qrTimeContID)= 4
+25.10.2018 14:18:22  
+
+UPDATE TimeCont SET  TimeID=:ParamTimeID, Num=:ParamNum, Days=:ParamDays, Start=:ParamStart, Finish=:ParamFinish WHERE ID=:ParamID
+
+25.10.2018 14:18:22  Param 0 (qrTimeContTimeID)= 4
+25.10.2018 14:18:22  Param 1 (qrTimeContNum)= 1
+25.10.2018 14:18:22  Param 2 (qrTimeContDays)= -1073737729
+25.10.2018 14:18:22  Param 3 (qrTimeContStart)= 30.12.1899
+25.10.2018 14:18:22  Param 4 (qrTimeContFinish)= 30.12.1899 23:59:59
+25.10.2018 14:18:22  Param 5 (qrTimeContID)= 4
+25.10.2018 14:18:22  
+
+UPDATE TimeCont SET  TimeID=:ParamTimeID, Num=:ParamNum, Days=:ParamDays, Start=:ParamStart, Finish=:ParamFinish WHERE ID=:ParamID
+
+25.10.2018 14:18:22  Param 0 (qrTimeContTimeID)= 4
+25.10.2018 14:18:22  Param 1 (qrTimeContNum)= 1
+25.10.2018 14:18:22  Param 2 (qrTimeContDays)= -1073733633
+25.10.2018 14:18:22  Param 3 (qrTimeContStart)= 30.12.1899
+25.10.2018 14:18:22  Param 4 (qrTimeContFinish)= 30.12.1899 23:59:59
+25.10.2018 14:18:22  Param 5 (qrTimeContID)= 4
+25.10.2018 14:18:23  
+
+UPDATE TimeCont SET  TimeID=:ParamTimeID, Num=:ParamNum, Days=:ParamDays, Start=:ParamStart, Finish=:ParamFinish WHERE ID=:ParamID
+
+25.10.2018 14:18:23  Param 0 (qrTimeContTimeID)= 4
+25.10.2018 14:18:23  Param 1 (qrTimeContNum)= 1
+25.10.2018 14:18:23  Param 2 (qrTimeContDays)= -1073725441
+25.10.2018 14:18:23  Param 3 (qrTimeContStart)= 30.12.1899
+25.10.2018 14:18:23  Param 4 (qrTimeContFinish)= 30.12.1899 23:59:59
+25.10.2018 14:18:23  Param 5 (qrTimeContID)= 4
+25.10.2018 14:18:23  
+
+UPDATE TimeCont SET  TimeID=:ParamTimeID, Num=:ParamNum, Days=:ParamDays, Start=:ParamStart, Finish=:ParamFinish WHERE ID=:ParamID
+
+25.10.2018 14:18:23  Param 0 (qrTimeContTimeID)= 4
+25.10.2018 14:18:23  Param 1 (qrTimeContNum)= 1
+25.10.2018 14:18:23  Param 2 (qrTimeContDays)= -1073709057
+25.10.2018 14:18:23  Param 3 (qrTimeContStart)= 30.12.1899
+25.10.2018 14:18:23  Param 4 (qrTimeContFinish)= 30.12.1899 23:59:59
+25.10.2018 14:18:23  Param 5 (qrTimeContID)= 4
+25.10.2018 14:18:24  
+
+UPDATE GTime SET  Comment=:ParamComment, Name=:ParamName, Calendar=:ParamCalendar, TimeWinType=:ParamTimeWinType WHERE ID=:ParamID
+
+25.10.2018 14:18:24  Param 0 (qrTimeComment)= test
+25.10.2018 14:18:24  Param 1 (qrTimeName)= test
+25.10.2018 14:18:24  Param 3 (qrTimeTimeWinType)= 0
+25.10.2018 14:18:24  Param 4 (qrTimeID)= 4
+25.10.2018 14:18:39  выделенная запись person: id=90 (Аденин А. А.)
+25.10.2018 14:18:40  выделенная запись person: id=4 (Администратор А.)
+25.10.2018 14:18:40  выделенная запись person: id=14 (Ананьев А. Б.)
+25.10.2018 14:18:40  выделенная запись person: id=83 (Ануфриев А. А.)
+25.10.2018 14:18:40  выделенная запись person: id=120 (Астахов С. С.)
+25.10.2018 14:18:40  выделенная запись person: id=62 (Баранов А. А.)
+25.10.2018 14:18:40  выделенная запись person: id=113 (Блинов О. Д.)
+25.10.2018 14:18:44  выделенная запись person: id=102 (Юрченко Н. В.)
+25.10.2018 14:18:48  выделенная запись person: id=4 (Администратор А.)
+25.10.2018 14:18:54  выделенная запись person: id=14 (Ананьев А. Б.)
+25.10.2018 14:18:54  выделенная запись person: id=83 (Ануфриев А. А.)
+25.10.2018 14:18:54  выделенная запись person: id=120 (Астахов С. С.)
+25.10.2018 14:18:54  выделенная запись person: id=62 (Баранов А. А.)
+25.10.2018 14:18:54  выделенная запись person: id=113 (Блинов О. Д.)
+25.10.2018 14:18:54  выделенная запись person: id=62 (Баранов А. А.)
+25.10.2018 14:18:54  выделенная запись person: id=120 (Астахов С. С.)
+25.10.2018 14:18:54  выделенная запись person: id=83 (Ануфриев А. А.)
+25.10.2018 15:33:58  
+
+UPDATE Comps SET  Name=:ParamName, TCP_IP=:ParamTCP_IP, GType=:ParamGType, GIndex=:ParamGIndex, IpReservSrv=:ParamIpReservSrv WHERE ID=:ParamID
+
+25.10.2018 15:33:58  Param 0 (qrComputersName)= test
+25.10.2018 15:33:58  Param 1 (qrComputersTCP_IP)= 172.16.153.113
+25.10.2018 15:33:58  Param 2 (qrComputersGType)= 415
+25.10.2018 15:33:58  Param 3 (qrComputersGIndex)= 9
+25.10.2018 15:33:58  Param 4 (qrComputersIpReservSrv)= 
+25.10.2018 15:33:58  Param 5 (qrComputersID)= 9
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 3
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 2
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 0
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 1
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 77
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 90
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 2
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 0
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 1
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 78
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 1007
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 2
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 1
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 1
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 79
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 29
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 2
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 1
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 0
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 80
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 61
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 3
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 60
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 0
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 81
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 65
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 2
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 1
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 1
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 82
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 66
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 3
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 3
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 1
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 83
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 67
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 3
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 1
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 1
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 84
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 1004
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 1
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 1
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 1
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 85
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 70
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 3
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 7
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 0
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 86
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 1000
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 2
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 1
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 0
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 87
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 1001
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 3
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 1000
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 0
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 88
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 1002
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 3
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 5
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 0
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 89
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 101
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 2
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 1
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 1
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 90
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 102
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 3
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 10
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 0
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 91
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 103
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 3
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 10
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 0
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 92
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 1003
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 2
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 1
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 0
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 93
+25.10.2018 15:33:58  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+25.10.2018 15:33:58  Param 0 (qrParamID)= 1008
+25.10.2018 15:33:58  Param 1 (qrParamName)= 
+25.10.2018 15:33:58  Param 2 (qrParamType)= 2
+25.10.2018 15:33:58  Param 3 (qrParamValue)= 1
+25.10.2018 15:33:58  Param 4 (qrParamComment)= 
+25.10.2018 15:33:58  Param 5 (qrParamComputerID)= 9
+25.10.2018 15:33:58  Param 6 (qrParamRequired)= 0
+25.10.2018 15:33:58  Param 7 (qrParamNum)= 94
+25.10.2018 15:39:27  
+
+
+25.10.2018 15:39:27  insert table=pMaps
+25.10.2018 15:39:27  
+
+INSERT INTO pMaps ( ID, Name, GIndex, ComputerID, Comment, Contents, ChangeTime ) VALUES( :ParamID, :ParamName, :ParamGIndex, :ParamComputerID, :ParamComment, :ParamContents, :ParamChangeTime )
+
+25.10.2018 15:39:27  Param 0 (qrMapPicturesID)= 87
+25.10.2018 15:39:27  Param 1 (qrMapPicturesName)= test
+25.10.2018 15:39:27  Param 2 (qrMapPicturesIndex)= 1
+25.10.2018 15:39:27  Param 3 (qrMapPicturesComputerID)= 9
+25.10.2018 15:39:27  Param 4 (qrMapPicturesComment)= 
+25.10.2018 15:39:27  Param 6 (qrMapPicturesChangeTime)= 25.10.2018 15:39:27
+25.10.2018 15:40:10  
+
+
+25.10.2018 15:40:10  insert table=Map_Elm
+25.10.2018 15:40:10  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:40:10  Param 0 (qrMapElmID)= 6107
+25.10.2018 15:40:10  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:40:10  Param 2 (qrMapElmNum)= 
+25.10.2018 15:40:10  Param 3 (qrMapElmGType)= 12
+25.10.2018 15:40:10  Param 4 (qrMapElmUnitID)= 2
+25.10.2018 15:40:10  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:40:10  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:40:10
+25.10.2018 15:40:13  
+
+
+25.10.2018 15:40:13  insert table=Map_Elm
+25.10.2018 15:40:13  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:40:13  Param 0 (qrMapElmID)= 6108
+25.10.2018 15:40:13  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:40:13  Param 2 (qrMapElmNum)= 
+25.10.2018 15:40:13  Param 3 (qrMapElmGType)= 12
+25.10.2018 15:40:13  Param 4 (qrMapElmUnitID)= 1
+25.10.2018 15:40:13  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:40:13  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:40:13
+25.10.2018 15:40:22  
+
+
+25.10.2018 15:40:22  insert table=Map_Elm
+25.10.2018 15:40:22  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:40:22  Param 0 (qrMapElmID)= 6109
+25.10.2018 15:40:22  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:40:22  Param 2 (qrMapElmNum)= 
+25.10.2018 15:40:22  Param 3 (qrMapElmGType)= 8
+25.10.2018 15:40:22  Param 4 (qrMapElmUnitID)= 22008
+25.10.2018 15:40:22  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:40:22  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:40:22
+25.10.2018 15:40:24  
+
+
+25.10.2018 15:40:24  insert table=Map_Elm
+25.10.2018 15:40:24  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:40:24  Param 0 (qrMapElmID)= 6110
+25.10.2018 15:40:24  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:40:24  Param 2 (qrMapElmNum)= 
+25.10.2018 15:40:24  Param 3 (qrMapElmGType)= 8
+25.10.2018 15:40:24  Param 4 (qrMapElmUnitID)= 22137
+25.10.2018 15:40:24  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:40:24  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:40:24
+25.10.2018 15:40:32  
+
+
+25.10.2018 15:40:32  insert table=Map_Elm
+25.10.2018 15:40:32  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:40:32  Param 0 (qrMapElmID)= 6111
+25.10.2018 15:40:32  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:40:32  Param 2 (qrMapElmNum)= 
+25.10.2018 15:40:32  Param 3 (qrMapElmGType)= 8
+25.10.2018 15:40:32  Param 4 (qrMapElmUnitID)= 22150
+25.10.2018 15:40:32  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:40:32  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:40:32
+25.10.2018 15:40:32  
+
+
+25.10.2018 15:40:32  insert table=Map_Elm
+25.10.2018 15:40:32  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:40:32  Param 0 (qrMapElmID)= 6112
+25.10.2018 15:40:32  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:40:32  Param 2 (qrMapElmNum)= 
+25.10.2018 15:40:32  Param 3 (qrMapElmGType)= 8
+25.10.2018 15:40:32  Param 4 (qrMapElmUnitID)= 22144
+25.10.2018 15:40:32  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:40:32  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:40:32
+25.10.2018 15:40:32  
+
+
+25.10.2018 15:40:32  insert table=Map_Elm
+25.10.2018 15:40:32  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:40:32  Param 0 (qrMapElmID)= 6113
+25.10.2018 15:40:32  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:40:32  Param 2 (qrMapElmNum)= 
+25.10.2018 15:40:32  Param 3 (qrMapElmGType)= 8
+25.10.2018 15:40:32  Param 4 (qrMapElmUnitID)= 22145
+25.10.2018 15:40:32  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:40:32  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:40:32
+25.10.2018 15:40:32  
+
+
+25.10.2018 15:40:32  insert table=Map_Elm
+25.10.2018 15:40:32  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:40:32  Param 0 (qrMapElmID)= 6114
+25.10.2018 15:40:32  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:40:32  Param 2 (qrMapElmNum)= 
+25.10.2018 15:40:32  Param 3 (qrMapElmGType)= 8
+25.10.2018 15:40:32  Param 4 (qrMapElmUnitID)= 22138
+25.10.2018 15:40:32  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:40:32  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:40:32
+25.10.2018 15:40:32  
+
+
+25.10.2018 15:40:32  insert table=Map_Elm
+25.10.2018 15:40:32  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:40:32  Param 0 (qrMapElmID)= 6115
+25.10.2018 15:40:32  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:40:32  Param 2 (qrMapElmNum)= 
+25.10.2018 15:40:32  Param 3 (qrMapElmGType)= 8
+25.10.2018 15:40:32  Param 4 (qrMapElmUnitID)= 22007
+25.10.2018 15:40:32  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:40:32  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:40:32
+25.10.2018 15:42:17  
+
+
+25.10.2018 15:42:17  insert table=pMaps
+25.10.2018 15:42:17  
+
+INSERT INTO pMaps ( ID, Name, GIndex, ComputerID, Comment, Contents, ChangeTime ) VALUES( :ParamID, :ParamName, :ParamGIndex, :ParamComputerID, :ParamComment, :ParamContents, :ParamChangeTime )
+
+25.10.2018 15:42:17  Param 0 (qrMapPicturesID)= 88
+25.10.2018 15:42:17  Param 1 (qrMapPicturesName)= teset
+25.10.2018 15:42:17  Param 2 (qrMapPicturesIndex)= 1
+25.10.2018 15:42:17  Param 3 (qrMapPicturesComputerID)= 9
+25.10.2018 15:42:17  Param 4 (qrMapPicturesComment)= test
+25.10.2018 15:42:17  Param 6 (qrMapPicturesChangeTime)= 25.10.2018 15:42:17
+25.10.2018 15:48:06  
+
+
+25.10.2018 15:48:06  insert table=Map_Elm
+25.10.2018 15:48:06  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:48:06  Param 0 (qrMapElmID)= 6116
+25.10.2018 15:48:06  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:48:06  Param 2 (qrMapElmNum)= 
+25.10.2018 15:48:06  Param 3 (qrMapElmGType)= 21
+25.10.2018 15:48:06  Param 4 (qrMapElmUnitID)= 88
+25.10.2018 15:48:06  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:48:06  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:48:06
+25.10.2018 15:48:25  
+
+
+25.10.2018 15:48:25  insert table=Map_Elm
+25.10.2018 15:48:25  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:48:25  Param 0 (qrMapElmID)= 6117
+25.10.2018 15:48:25  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:48:25  Param 2 (qrMapElmNum)= 
+25.10.2018 15:48:25  Param 3 (qrMapElmGType)= 4
+25.10.2018 15:48:25  Param 4 (qrMapElmUnitID)= 436
+25.10.2018 15:48:25  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:48:25  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:48:25
+25.10.2018 15:48:25  
+
+
+25.10.2018 15:48:25  insert table=Map_Elm
+25.10.2018 15:48:25  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:48:25  Param 0 (qrMapElmID)= 6118
+25.10.2018 15:48:25  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:48:25  Param 2 (qrMapElmNum)= 
+25.10.2018 15:48:25  Param 3 (qrMapElmGType)= 4
+25.10.2018 15:48:25  Param 4 (qrMapElmUnitID)= 433
+25.10.2018 15:48:25  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:48:25  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:48:25
+25.10.2018 15:48:25  
+
+
+25.10.2018 15:48:25  insert table=Map_Elm
+25.10.2018 15:48:25  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:48:25  Param 0 (qrMapElmID)= 6119
+25.10.2018 15:48:25  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:48:25  Param 2 (qrMapElmNum)= 
+25.10.2018 15:48:25  Param 3 (qrMapElmGType)= 4
+25.10.2018 15:48:25  Param 4 (qrMapElmUnitID)= 430
+25.10.2018 15:48:25  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:48:25  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:48:25
+25.10.2018 15:48:25  
+
+
+25.10.2018 15:48:25  insert table=Map_Elm
+25.10.2018 15:48:25  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:48:25  Param 0 (qrMapElmID)= 6120
+25.10.2018 15:48:25  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:48:25  Param 2 (qrMapElmNum)= 
+25.10.2018 15:48:25  Param 3 (qrMapElmGType)= 4
+25.10.2018 15:48:25  Param 4 (qrMapElmUnitID)= 431
+25.10.2018 15:48:25  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:48:25  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:48:25
+25.10.2018 15:48:25  
+
+
+25.10.2018 15:48:25  insert table=Map_Elm
+25.10.2018 15:48:25  
+
+INSERT INTO Map_Elm ( ID, MapID, Num, GType, UnitID, PictureCount, Pictures, ChangeTime ) VALUES( :ParamID, :ParamMapID, :ParamNum, :ParamGType, :ParamUnitID, :ParamPictureCount, :ParamPictures, :ParamChangeTime )
+
+25.10.2018 15:48:25  Param 0 (qrMapElmID)= 6121
+25.10.2018 15:48:25  Param 1 (qrMapElmMapID)= 87
+25.10.2018 15:48:25  Param 2 (qrMapElmNum)= 
+25.10.2018 15:48:25  Param 3 (qrMapElmGType)= 4
+25.10.2018 15:48:25  Param 4 (qrMapElmUnitID)= 435
+25.10.2018 15:48:25  Param 5 (qrMapElmPictureCount)= 
+25.10.2018 15:48:25  Param 7 (qrMapElmChangeTime)= 25.10.2018 15:48:25
+26.10.2018 14:49:45  
+
+
+26.10.2018 14:49:45  insert table=Comps
+26.10.2018 14:49:45  
+
+INSERT INTO Comps ( ID, Name, TCP_IP, GType, GIndex, IpReservSrv ) VALUES( :ParamID, :ParamName, :ParamTCP_IP, :ParamGType, :ParamGIndex, :ParamIpReservSrv )
+
+26.10.2018 14:49:45  Param 0 (qrComputersID)= 9
+26.10.2018 14:49:45  Param 1 (qrComputersName)= localhost
+26.10.2018 14:49:45  Param 2 (qrComputersTCP_IP)= 172.16.153.113
+26.10.2018 14:49:45  Param 3 (qrComputersGType)= 0
+26.10.2018 14:49:45  Param 4 (qrComputersGIndex)= 9
+26.10.2018 14:49:45  Param 5 (qrComputersIpReservSrv)= 
+26.10.2018 14:49:45  
+
+
+26.10.2018 14:49:45  insert table=SysParam
+26.10.2018 14:49:45  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:45  Param 0 (qrParamNum)= 77
+26.10.2018 14:49:45  Param 1 (qrParamID)= 3
+26.10.2018 14:49:45  Param 2 (qrParamName)= 
+26.10.2018 14:49:45  Param 3 (qrParamType)= 2
+26.10.2018 14:49:45  Param 4 (qrParamValue)= 0
+26.10.2018 14:49:45  Param 5 (qrParamComment)= 
+26.10.2018 14:49:45  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:45  Param 7 (qrParamRequired)= 1
+26.10.2018 14:49:45  
+
+
+26.10.2018 14:49:45  insert table=SysParam
+26.10.2018 14:49:45  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:45  Param 0 (qrParamNum)= 78
+26.10.2018 14:49:45  Param 1 (qrParamID)= 90
+26.10.2018 14:49:45  Param 2 (qrParamName)= 
+26.10.2018 14:49:45  Param 3 (qrParamType)= 2
+26.10.2018 14:49:45  Param 4 (qrParamValue)= 0
+26.10.2018 14:49:45  Param 5 (qrParamComment)= 
+26.10.2018 14:49:45  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:45  Param 7 (qrParamRequired)= 1
+26.10.2018 14:49:45  
+
+
+26.10.2018 14:49:45  insert table=SysParam
+26.10.2018 14:49:45  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:45  Param 0 (qrParamNum)= 79
+26.10.2018 14:49:45  Param 1 (qrParamID)= 1007
+26.10.2018 14:49:45  Param 2 (qrParamName)= 
+26.10.2018 14:49:45  Param 3 (qrParamType)= 2
+26.10.2018 14:49:45  Param 4 (qrParamValue)= 1
+26.10.2018 14:49:45  Param 5 (qrParamComment)= 
+26.10.2018 14:49:45  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:45  Param 7 (qrParamRequired)= 1
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 80
+26.10.2018 14:49:46  Param 1 (qrParamID)= 29
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 2
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 1
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 0
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 81
+26.10.2018 14:49:46  Param 1 (qrParamID)= 61
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 3
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 60
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 0
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 82
+26.10.2018 14:49:46  Param 1 (qrParamID)= 65
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 2
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 1
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 1
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 83
+26.10.2018 14:49:46  Param 1 (qrParamID)= 66
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 3
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 3
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 1
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 84
+26.10.2018 14:49:46  Param 1 (qrParamID)= 67
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 3
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 1
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 1
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 85
+26.10.2018 14:49:46  Param 1 (qrParamID)= 1004
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 1
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 1
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 1
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 86
+26.10.2018 14:49:46  Param 1 (qrParamID)= 70
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 3
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 7
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 0
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 87
+26.10.2018 14:49:46  Param 1 (qrParamID)= 1000
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 2
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 1
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 0
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 88
+26.10.2018 14:49:46  Param 1 (qrParamID)= 1001
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 3
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 1000
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 0
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 89
+26.10.2018 14:49:46  Param 1 (qrParamID)= 1002
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 3
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 5
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 0
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 90
+26.10.2018 14:49:46  Param 1 (qrParamID)= 101
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 2
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 1
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 1
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 91
+26.10.2018 14:49:46  Param 1 (qrParamID)= 102
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 3
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 10
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 0
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 92
+26.10.2018 14:49:46  Param 1 (qrParamID)= 103
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 3
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 10
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 0
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 93
+26.10.2018 14:49:46  Param 1 (qrParamID)= 1003
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 2
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 1
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 0
+26.10.2018 14:49:46  
+
+
+26.10.2018 14:49:46  insert table=SysParam
+26.10.2018 14:49:46  
+
+INSERT INTO SysParam ( Num, ID, Name, GType, GValue, Comment, ComputerID, Required ) VALUES( :ParamNum, :ParamID, :ParamName, :ParamGType, :ParamGValue, :ParamComment, :ParamComputerID, :ParamRequired )
+
+26.10.2018 14:49:46  Param 0 (qrParamNum)= 94
+26.10.2018 14:49:46  Param 1 (qrParamID)= 1008
+26.10.2018 14:49:46  Param 2 (qrParamName)= 
+26.10.2018 14:49:46  Param 3 (qrParamType)= 2
+26.10.2018 14:49:46  Param 4 (qrParamValue)= 1
+26.10.2018 14:49:46  Param 5 (qrParamComment)= 
+26.10.2018 14:49:46  Param 6 (qrParamComputerID)= 9
+26.10.2018 14:49:46  Param 7 (qrParamRequired)= 0
+26.10.2018 14:50:37  
+
+UPDATE Comps SET  Name=:ParamName, TCP_IP=:ParamTCP_IP, GType=:ParamGType, GIndex=:ParamGIndex, IpReservSrv=:ParamIpReservSrv WHERE ID=:ParamID
+
+26.10.2018 14:50:37  Param 0 (qrComputersName)= localhost
+26.10.2018 14:50:37  Param 1 (qrComputersTCP_IP)= 172.16.153.113
+26.10.2018 14:50:37  Param 2 (qrComputersGType)= 931
+26.10.2018 14:50:37  Param 3 (qrComputersGIndex)= 9
+26.10.2018 14:50:37  Param 4 (qrComputersIpReservSrv)= 
+26.10.2018 14:50:37  Param 5 (qrComputersID)= 9
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 3
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 2
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 0
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 1
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 77
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 90
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 2
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 0
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 1
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 78
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 1007
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 2
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 1
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 1
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 79
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 29
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 2
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 1
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 0
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 80
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 61
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 3
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 60
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 0
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 81
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 65
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 2
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 1
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 1
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 82
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 66
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 3
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 3
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 1
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 83
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 67
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 3
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 1
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 1
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 84
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 1004
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 1
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 1
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 1
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 85
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 70
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 3
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 7
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 0
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 86
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 1000
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 2
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 1
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 0
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 87
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 1001
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 3
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 1000
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 0
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 88
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 1002
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 3
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 5
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 0
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 89
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 101
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 2
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 1
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 1
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 90
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 102
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 3
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 10
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 0
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 91
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 103
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 3
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 10
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 0
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 92
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 1003
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 2
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 1
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 0
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 93
+26.10.2018 14:50:37  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 14:50:37  Param 0 (qrParamID)= 1008
+26.10.2018 14:50:37  Param 1 (qrParamName)= 
+26.10.2018 14:50:37  Param 2 (qrParamType)= 2
+26.10.2018 14:50:37  Param 3 (qrParamValue)= 1
+26.10.2018 14:50:37  Param 4 (qrParamComment)= 
+26.10.2018 14:50:37  Param 5 (qrParamComputerID)= 9
+26.10.2018 14:50:37  Param 6 (qrParamRequired)= 0
+26.10.2018 14:50:37  Param 7 (qrParamNum)= 94
+26.10.2018 16:48:55  
+
+UPDATE Comps SET  Name=:ParamName, TCP_IP=:ParamTCP_IP, GType=:ParamGType, GIndex=:ParamGIndex, IpReservSrv=:ParamIpReservSrv WHERE ID=:ParamID
+
+26.10.2018 16:48:55  Param 0 (qrComputersName)= localhost
+26.10.2018 16:48:55  Param 1 (qrComputersTCP_IP)= 172.16.153.113
+26.10.2018 16:48:55  Param 2 (qrComputersGType)= 947
+26.10.2018 16:48:55  Param 3 (qrComputersGIndex)= 9
+26.10.2018 16:48:55  Param 4 (qrComputersIpReservSrv)= 
+26.10.2018 16:48:55  Param 5 (qrComputersID)= 9
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 3
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 2
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 0
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 1
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 77
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 90
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 2
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 0
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 1
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 78
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 1007
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 2
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 1
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 1
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 79
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 29
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 2
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 1
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 0
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 80
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 61
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 3
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 60
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 0
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 81
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 65
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 2
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 1
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 1
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 82
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 66
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 3
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 3
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 1
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 83
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 67
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 3
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 1
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 1
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 84
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 1004
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 1
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 1
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 1
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 85
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 70
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 3
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 7
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 0
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 86
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 1000
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 2
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 1
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 0
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 87
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 1001
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 3
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 1000
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 0
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 88
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 1002
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 3
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 5
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 0
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 89
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 101
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 2
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 1
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 1
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 90
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 102
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 3
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 10
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 0
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 91
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 103
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 3
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 10
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 0
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 92
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 1003
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 2
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 1
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 0
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 93
+26.10.2018 16:48:55  
+
+UPDATE SysParam SET  ID=:ParamID, Name=:ParamName, GType=:ParamGType, GValue=:ParamGValue, Comment=:ParamComment, ComputerID=:ParamComputerID, Required=:ParamRequired WHERE Num=:ParamNum
+
+26.10.2018 16:48:55  Param 0 (qrParamID)= 1008
+26.10.2018 16:48:55  Param 1 (qrParamName)= 
+26.10.2018 16:48:55  Param 2 (qrParamType)= 2
+26.10.2018 16:48:55  Param 3 (qrParamValue)= 1
+26.10.2018 16:48:55  Param 4 (qrParamComment)= 
+26.10.2018 16:48:55  Param 5 (qrParamComputerID)= 9
+26.10.2018 16:48:55  Param 6 (qrParamRequired)= 0
+26.10.2018 16:48:55  Param 7 (qrParamNum)= 94

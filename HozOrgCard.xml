@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Настройка карточки информации о сотруднике.
+     lb_violation:
+       show - показывать надпись с текущим нарушением доступа
+     
+     picture: 
+	   width - ширина форографии;
+	   height - высота фотографии;
+       stretch - 1-увеличивать фотографию до величины границ области показа фото,
+                 0-не увеличивать;   
+    
+	 	   
+     listcontrol: 
+     	bgcolor - цвет фона списка (3 цифры - "красный,зелёный,синий");
+     	fontcolor - цвет шрифта списка;
+     	fontsize - размер шрифта списка;
+     	height - высота списка;(ширина будет зависеть от ширины фотографии)
+          
+     field:
+     	dbfield - имя поля таблицы(pList) из которого брать информацию;
+     	caption - то, что будет выводиться в колонке "Параметр";
+     	результат запроса данных по полю будет отображаться
+     	в колонке "Значение".
+     
+     Примечания:
+     1. Вставка в список разделителя(пустой строки): dbfield="" caption=""; 
+     2. Игнорируемые поля таблицы: ID, Picture, Spack, GrStatus 
+-->
+<card>
+    <lb_violation show = "0"></lb_violation>
+	<picture width="300" height="300" stretch="1"></picture>
+	<listcontrol bgcolor="255,255,255" fontcolor="0,0,0" fontsize="9" height="200">
+		<field dbfield="Name" caption="Фамилия"></field>
+		<field dbfield="FirstName" caption="Имя"></field>
+		<field dbfield="MidName" caption="Отчество"></field>
+		<field dbfield="" caption=""></field>
+		<field dbfield="Section" caption="Подразделение"></field>
+		<field dbfield="Post" caption="Должность"></field>
+		<field dbfield="BirthDate" caption="День рождения"></field>
+		<field dbfield="Company" caption="Компания"></field>
+		<field dbfield="Status" caption="Статус"></field>
+		<field dbfield="WorkPhone" caption="Раб. тел."></field>
+        <!-- <field dbfield="TabNumber" caption="Табельный номер"></field> -->
+        <field dbfield="Avto" caption="Автомобиль"></field>
+	</listcontrol>
+</card>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<БД>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_Comps_GIndex ON Comps (GIndex )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_ComPorts_ComputerID ON ComPorts (ComputerID, Number )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_RSLines_ComPortID ON RSLines (ComPortID, PKUID, GLineNo )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_RSLines_GIndex ON RSLines (GIndex )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_pObjects_ComputerID ON pObjects (ComputerID, GIndex )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_pObjCont ON pObjCont (ObjectID, ShleifID, ItemType )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_GroupObj_ComputerID ON GroupObj (ComputerID, GIndex )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_GrObjCont_GrObjID ON GrObjCont (GrObjID, ObjID )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_KeyObjs_ObjectID ON KeyObjs (ObjectID, KeyID, Status )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_pMaps_GIndex ON pMaps (GIndex ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_Map_Elm_MapID ON Map_Elm (MapID, GType, UnitID )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_TimeCont_TimeID ON TimeCont (TimeID ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_TimeCont_Num ON TimeCont (Num ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_AccessZone_GIndex ON AccessZone (GIndex )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_AcessPoint_GIndex ON AcessPoint (GIndex )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX I_RdrAccessPoint_ReaderID ON RdrAccessPoint (ReaderID, AccessPointID, Mode )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_GrAccess_GroupID ON GrAccess (GroupID ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_GrAccess_Mode ON GrAccess (Mode ASC, AccessID ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_PDivision_Number ON PDivision (Number ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_PPost_Number ON PPost (Number ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_pList_Name ON pList (Name ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_pList_Status ON pList (Status ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_pMark_Gtype ON pMark (Gtype ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_pMark_Owner ON pMark (Owner ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_Schedule_ScriptID ON Schedule (ScriptID ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_Guest_PListID ON Guest (PListID ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_DevItems_DeviceID ON DevItems (DeviceID, Address, ItemType )</ИНДЕКС>
+<ИНДЕКС> CREATE UNIQUE INDEX Ibx_DevItems_GIndex ON DevItems (GIndex )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_Cameras_CamNumber ON Cameras (CamNumber ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_Cameras_MonNumber ON Cameras (MonNumber ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_IndexZone ON adc (IndexZone ASC )</ИНДЕКС>
+<ИНДЕКС> CREATE INDEX Ibx_IndexZone_IndexDevice ON adc (IndexZone ASC, IndexDevice ASC )</ИНДЕКС>
+</БД>

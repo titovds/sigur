@@ -1,0 +1,4233 @@
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:12:57
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:12:26
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 431404
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0042ADC8]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0048A2D4]
+[0048D64E]
+[00489BE8]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00516964]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:13:02
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:12:26
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 431409
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0042ADC8]
+[00650060]
+[0048CC47]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0048CC47]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[004028A5]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:14:11
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:12:26
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 431478
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[006D006D]
+[0065003F]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[00623364]
+[0061F6B0]
+[0060D805]
+[004211B3]
+[0048CC47]
+[0061C12E]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[004025E8]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:14:16
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:12:26
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 431483
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0042ADC8]
+[00650060]
+[0048CC47]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0048CC47]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[004028A5]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:16:28
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:12:26
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 431615
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[006D006D]
+[0065003F]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[00623364]
+[0061F6B0]
+[0060D805]
+[004211B3]
+[0048CC47]
+[0061C12E]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[004A9DF2]
+[004AA4FA]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[004050F8]
+[0040227D]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:16:33
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:12:26
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 431620
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0042ADC8]
+[00650060]
+[0048CC47]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0048CC47]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[004028A5]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:18:39
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:12:26
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 431746
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[006D006D]
+[0065003F]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[00623364]
+[0061F6B0]
+[0060D805]
+[004211B3]
+[0048CC47]
+[0061C12E]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:18:44
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:12:26
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 431751
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0042ADC8]
+[00650060]
+[0048CC47]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0048CC47]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[004028A5]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:19:54
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:12:26
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 431821
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[006D006D]
+[0065003F]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[00623364]
+[0061F6B0]
+[0060D805]
+[004211B3]
+[0048CC47]
+[0061C12E]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402442]
+[00404A60]
+[004023C1]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:19:59
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:12:26
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 431826
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0042ADC8]
+[00650060]
+[0048CC47]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0048CC47]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[004028A5]
+[0053EC2E]
+[00521C5A]
+[004A9DF2]
+[004AA4FA]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:22:46
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:21:01
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 431993
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0042002F]
+[006D006D]
+[0065003F]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[00623364]
+[0061F6B0]
+[0060D805]
+[004211B3]
+[0048CC47]
+[0061C12E]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[0042002F]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:22:51
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:21:01
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 431998
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0042ADC8]
+[00650060]
+[0048CC47]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0048CC47]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[004028A5]
+[0053EC2E]
+[00521C5A]
+[0042002F]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:24:19
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:21:01
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 432086
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[006D006D]
+[0065003F]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[00623364]
+[0061F6B0]
+[0060D805]
+[004211B3]
+[0048CC47]
+[0061C12E]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:24:24
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:21:01
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 432091
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0042ADC8]
+[00650060]
+[0048CC47]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0048CC47]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[004028A5]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:25:35
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:24:54
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 432162
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0042ADC8]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0048A2D4]
+[0048D64E]
+[00489BE8]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00516964]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 12.09.2018 10:25:40
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 12.09.2018 10:24:54
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 432167
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,71 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0042ADC8]
+[00650060]
+[0048CC47]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0048CC47]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0040478A]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[004028A5]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[00404A60]
+[00402416]
+[004028A5]
+[00402442]
+[00404A60]
+[00402416]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 17.09.2018 13:19:26
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 14.09.2018 13:50:11
+exception class: EDatabaseError
+exception message: qrGroupAccess: Cannot perform this operation on a closed dataset
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 874582
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,50 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[004CB85F]
+[0048CD2B]
+[0048D29F]
+[00404447]
+[00489BE8]
+[00420844]
+[0042ADC8]
+[00436728]
+[0042ADC8]
+[004CB85F]
+[00489BE8]
+[0048CD2B]
+[00489BE8]
+[0048CC47]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0042ADC8]
+[004CB85F]
+[00404996]
+[0074F506]
+[004D7BC5]
+[00404996]
+[0058FC36]
+[0074F7B1]
+[00404996]
+[00489D80]
+[0047F2B0]
+[0047F3A4]
+[00489BE8]
+[0048CC47]
+[0047F174]
+[004899B8]
+[0048CD7F]
+[0048D3D7]
+[004A6420]
+[00489BE8]
+[0048CD2B]
+[00489BE8]
+[0048CC47]
+[004A4479]
+[0048C8C4]
+[0048C8D9]
+[00750208]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0048CD2B]
+[0048A188]
+[00489BE8]
+[0048CB79]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0042ADC8]
+[0048CA6F]
+[0048CC47]
+[0047F174]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004A7655]
+[0074F48B]
+[007844F9]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 17.09.2018 13:23:15
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 14.09.2018 13:50:11
+exception class: EDatabaseError
+exception message: qrGroupAccess: Cannot perform this operation on a closed dataset
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 874811
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 110,28 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[004CB85F]
+[0048CD2B]
+[0048D29F]
+[00404447]
+[00489BE8]
+[00420844]
+[0042ADC8]
+[00436728]
+[0042ADC8]
+[004CB85F]
+[00489BE8]
+[0048CD2B]
+[00489BE8]
+[0048CC47]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0042ADC8]
+[004CB85F]
+[00404996]
+[0074F506]
+[004D7BC5]
+[00404996]
+[0058FC36]
+[0074F7B1]
+[00404996]
+[00489D80]
+[0047F2B0]
+[0047F3A4]
+[00489BE8]
+[0048CC47]
+[0047F174]
+[004899B8]
+[0048CD7F]
+[0048D3D7]
+[004A6420]
+[00489BE8]
+[0048CD2B]
+[00489BE8]
+[0048CC47]
+[004A4479]
+[0048C8C4]
+[0048C8D9]
+[00750208]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0048CD2B]
+[0048A188]
+[0048CD2B]
+[00489BE8]
+[0048CB79]
+[004A9DF2]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0042ADC8]
+[0048CA6F]
+[0048CC47]
+[0047F174]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004A7655]
+[0074F48B]
+[007844F9]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 25.10.2018 13:49:32
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 25.10.2018 13:49:14
+exception class: EAccessViolation
+exception message: Access violation at address 00599A9E in module 'Abd.exe'. Read of address 00000008
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 1481252
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 86,66 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00480608]
+[00420844]
+[004025E8]
+[0047D1D1]
+[00404996]
+[0047D20D]
+[0074EDA7]
+[00404996]
+[0077EFE5]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[00404447]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[00404996]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 25.10.2018 13:49:39
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 25.10.2018 13:49:14
+exception class: EAccessViolation
+exception message: Access violation at address 00784856 in module 'Abd.exe'. Read of address 00000008
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 1481259
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 86,66 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0040883C]
+[0042389F]
+[00432A2A]
+[004905B9]
+[00489BE8]
+[0040227D]
+[00402442]
+[00404183]
+[00404543]
+[0040459B]
+[004041B8]
+[00784845]
+[00404996]
+[007715DA]
+[00404996]
+[00775035]
+[00404996]
+[00489D80]
+[0044C618]
+[0044C602]
+[0048A16C]
+[0048A1E1]
+[0048A0FE]
+[00489BE8]
+[0042ADC8]
+[004899B8]
+[0048CADE]
+[0048CBCA]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 25.10.2018 13:49:40
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 25.10.2018 13:49:14
+exception class: EAccessViolation
+exception message: Access violation at address 00784856 in module 'Abd.exe'. Read of address 00000008
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 1481261
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 86,66 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0040883C]
+[0042389F]
+[00432A2A]
+[004905B9]
+[00489BE8]
+[00402442]
+[00404A60]
+[004023C1]
+[00404183]
+[00404543]
+[0040459B]
+[004041B8]
+[00784845]
+[00404996]
+[007715DA]
+[00404996]
+[00775035]
+[00404996]
+[00489D80]
+[0044C618]
+[0044C602]
+[0048A16C]
+[0048A1E1]
+[0048A0FE]
+[00489BE8]
+[0042ADC8]
+[004899B8]
+[0048CADE]
+[0048CBCA]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 25.10.2018 13:50:00
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 25.10.2018 13:49:14
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 1481280
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 86,66 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0048CD2B]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0042ADC8]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00516964]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[00404447]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 25.10.2018 13:50:05
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 25.10.2018 13:49:14
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 1481285
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 86,66 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[00404447]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 25.10.2018 13:52:03
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 25.10.2018 13:49:14
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 1481403
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 86,66 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[004211B3]
+[0061C12E]
+[0061F6B0]
+[0060D60F]
+[00404912]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402442]
+[00404A60]
+[004023C1]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 25.10.2018 13:52:08
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 25.10.2018 13:49:14
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 1481408
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 86,66 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 25.10.2018 14:06:05
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 25.10.2018 14:03:46
+exception class: Exception
+exception message: Для запуска экспорта необходимо выделить узел ПКУ
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 1482245
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 86,66 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0077E05A]
+[0048CD2B]
+[004A58F6]
+[0048E337]
+[004A6659]
+[00489BE8]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00436728]
+[0077E05A]
+[004028A5]
+[0048CD2B]
+[0077E05A]
+[004028A5]
+[004050F8]
+[0077E05A]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[00404996]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 25.10.2018 14:14:10
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 25.10.2018 14:13:36
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 1482730
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 86,66 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0048CD2B]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0042ADC8]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00516964]
+[00402293]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402442]
+[00404A60]
+[004023C1]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 25.10.2018 14:14:15
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 25.10.2018 14:13:36
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 1482735
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 86,66 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 25.10.2018 15:37:42
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 25.10.2018 15:36:24
+exception class: Exception
+exception message: Не выделен узел комьютера
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 1487742
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 86,63 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[007600A0]
+[004028A5]
+[004025E8]
+[004028C5]
+[00405044]
+[0044D194]
+[007600A0]
+[004028A5]
+[004050F8]
+[007600A0]
+[00404996]
+[00489D80]
+[0047F2B0]
+[0044CD5D]
+[0047F3A4]
+[00489BE8]
+[0048CC47]
+[0047F174]
+[004899B8]
+[0048CD7F]
+[0048D3D7]
+[00489BE8]
+[006168B7]
+[00430AC9]
+[004025E8]
+[0048CC47]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0049104C]
+[0048CEAA]
+[0048CD2B]
+[0048A188]
+[00489BE8]
+[0048CC47]
+[0048CB79]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0042ADC8]
+[0048CA6F]
+[0048CC47]
+[0047F174]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 25.10.2018 15:43:11
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 25.10.2018 15:36:24
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 1488071
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 86,63 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0048CD2B]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0042ADC8]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 25.10.2018 15:43:16
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 25.10.2018 15:36:24
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 1488076
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 86,63 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:45:40
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 10532
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0048CD2B]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0042ADC8]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00516964]
+[00402293]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:45:45
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 10537
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0042ADC8]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0040B65B]
+[0040B663]
+[00404912]
+[0048CC47]
+[004028A5]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[00404A60]
+[00402416]
+[004028A5]
+[00402442]
+[00404A60]
+[00402416]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:48:35
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 10707
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[004211B3]
+[0061C12E]
+[0061F6B0]
+[0060D60F]
+[00404912]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:48:40
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 10712
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0042ADC8]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0040B65B]
+[0040B663]
+[00404912]
+[0048CC47]
+[004028A5]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:51:21
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 10873
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[004211B3]
+[0061C12E]
+[0061F6B0]
+[0060D60F]
+[00404912]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402442]
+[00404A60]
+[004023C1]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:51:27
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 10878
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0042ADC8]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0040B65B]
+[0040B663]
+[00404912]
+[0048CC47]
+[004028A5]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:52:36
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 10947
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[004211B3]
+[0061C12E]
+[0061F6B0]
+[0060D60F]
+[00404912]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:52:41
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 10952
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0042ADC8]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0040B65B]
+[0040B663]
+[00404912]
+[0048CC47]
+[004028A5]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:53:32
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 11004
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[004211B3]
+[0061C12E]
+[0061F6B0]
+[0060D60F]
+[00404912]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[0040227D]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[004050F8]
+[0040227D]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:53:37
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 11009
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0042ADC8]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0040B65B]
+[0040B663]
+[00404912]
+[0048CC47]
+[004028A5]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[0048BE39]
+[0048E800]
+[00489BE8]
+[0048CC47]
+[0048BE39]
+[0047F174]
+[0048BE39]
+[0048E800]
+[00489BE8]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:56:15
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 11167
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[004211B3]
+[0061C12E]
+[0061F6B0]
+[0060D60F]
+[00404912]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00402293]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402442]
+[00404A60]
+[004023C1]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:56:21
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 11172
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0042ADC8]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0040B65B]
+[0040B663]
+[00404912]
+[0048CC47]
+[004028A5]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:57:52
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 11264
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[004211B3]
+[0061C12E]
+[0061F6B0]
+[0060D60F]
+[00404912]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[00404A60]
+[004023C1]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 14:57:57
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 14:45:15
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 11269
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 106,65 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048C8D9]
+[0042ADC8]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0040B65B]
+[0040B663]
+[00404912]
+[0048CC47]
+[004028A5]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402442]
+[00404A60]
+[004023C1]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 16:49:22
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 16:45:42
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 17953
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 104,39 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[0048CD2B]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[0042ADC8]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00516964]
+[0040227D]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402442]
+[00404A60]
+[004023C1]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+
+date/time: 26.10.2018 16:49:27
+executable: C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\Abd.exe
+application version: 1.11.2.2587
+application data folder  : C:\BOLID\ARM_ORION_PRO1_11SKD_sp5\
+exec. date/time: 26.10.2018 16:45:42
+exception class: EAccessViolation
+exception message: Access violation at address 00787B60 in module 'Abd.exe'. Read of address 00000004
+
+operating system: Workstation build 9200
+system language: Russian
+system up time: 17958
+computer name: WS-DBN38-2112
+user name: titovds
+administrator privilege  : yes
+processor: P6 (Model 14) 3000 MHz
+physical memory: 2047/2047 MB (free/total)
+free disk space (c:): 104,39 GB
+display resolution: 1920x1080 (32 bits)
+
+Call stack:
+[0063E6F3]
+[0063E5A9]
+[0063F9A6]
+[004AADA9]
+[0048C8FF]
+[00404912]
+[00404996]
+[0053E270]
+[00404996]
+[00489BE8]
+[00404912]
+[0048CC47]
+[0048C8C4]
+[00404996]
+[0042ADC8]
+[0053EC2E]
+[00521C5A]
+[00404183]
+[00521C5A]
+[00404996]
+[00521E3A]
+[00404996]
+[005277D6]
+[00404996]
+[0053FD2D]
+[00404996]
+[0053EA70]
+[00402442]
+[004028A5]
+[00402293]
+[00402442]
+[004025E8]
+[004028C5]
+[004025E8]
+[004028C5]
+[0053E0DE]
+[007136C2]
+[00713C20]
+[0077DE4B]
+[0049B82E]
+[0049CA07]
+[004A6413]
+[00489BE8]
+[007791E7]
+[0048CC47]
+[004A4479]
+[007791E7]
+[00420844]
+[00436728]
+[0048C8C4]
+[0048CC47]
+[004A4479]
+[0077919D]
+[0048C8C4]
+[0042ADC8]
+[004AAA87]
+[004AAABE]
+[004AACDE]
+[00798253]
+
+
+----------------------------------------------------------------------------------------
